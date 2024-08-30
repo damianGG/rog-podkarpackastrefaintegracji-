@@ -67,7 +67,7 @@ export default function Footer2() {
 
           </div>
         </div>
-        <p className="fs-15">J&P Moritz Consulting All Group Jacek Poproch rights reserved.</p>
+        <p className="fs-15">J&P Moritz Consulting All Group Sp z o.o. rights reserved.</p>
       </div>
     </footer>
   );
