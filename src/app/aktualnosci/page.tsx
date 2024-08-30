@@ -6,7 +6,6 @@ import './style.css'
 import flagaUe from '@/icons/flaga-ue-tlo.png'
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
-
 async function getStrapiData() {
     const data = await fetch(`${backendLink}/api/aktualnoscis?sort=id:desc`,
 
@@ -19,7 +18,6 @@ async function getStrapiData() {
             },
         }
     );
-    console.log(data);
     return data.json();
 }
 
@@ -47,8 +45,9 @@ function createSlug(text: string): string {
 
 export default async function News() {
     const { data } = await getStrapiData();
-    // const formattedDate = format(new Date(date), 'dd MMMM yyyy', { locale: pl });
 
+    // Sortowanie danych według daty od najnowszej do najstarszej
+    const sortedData = data.sort((a: any, b: any) => new Date(b.attributes.data).getTime() - new Date(a.attributes.data).getTime());
 
     return (
         <>
@@ -90,7 +89,7 @@ export default async function News() {
             <div className="container mb-15 mt-15">
                 <div className="row gx-0 gx-md-3 gx-xl-8 gy-8 align-items-center">
 
-                    {data.map((article: any) => {
+                    {sortedData.map((article: any) => {
                         const slug = createSlug(article.attributes.tytul);
                         const articleUrl = `/aktualnosci/${article.id}-${slug}`;
 
@@ -120,11 +119,8 @@ export default async function News() {
                         );
                     })}
 
-
                 </div>
-
             </div>
         </>
     );
-};
-
+}
