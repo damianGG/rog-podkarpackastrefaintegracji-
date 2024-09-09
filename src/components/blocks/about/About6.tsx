@@ -71,9 +71,8 @@ export default function About6() {
             <p className="">Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
               wymienione kryteria, a w szczególności bierne zawodowo kobiety w wieku 18-29 lat, które
               posiadają wykształcenie ponadgimnazjalne lub niższe.</p>
-            <p className="">Komplet dokumentów rekrutacyjnych (patrz zakładka „Rekrutacja”) można składać osobiście
+            <p className="">Komplet dokumentów rekrutacyjnych (patrz zakładka <a className="link-primary" href="https://aktywnekobiety.pl/rekrutacja">„Rekrutacja”</a> ) można składać osobiście
               w Biurze Projektu bądź przesyłać je drogą pocztową, kurierem lub e-mailem.</p>
-
 
           </div>
 

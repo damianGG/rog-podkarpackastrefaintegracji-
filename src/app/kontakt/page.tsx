@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from 'next'
 export const metadata: Metadata = {
     title: 'Kontakt do projektu „Kobieta * Aktywność * Sukces',
-    description: 'Kontakt do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa oraz do biura projektu J&P Moritz Consulting Group Jacek Poproch w Wrocławiu',
+    description: 'Kontakt do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa oraz do biura projektu J&P Moritz Consulting Group Sp. z o. o. w Wrocławiu',
 }
 export default function Kontakt() {
     return (
@@ -65,7 +65,7 @@ export default function Kontakt() {
                 </div>
                 <div className="row mt-10">
                     <div className="col text-center">
-                        <h2>Siedziba J&P Moritz Consulting Group Jacek Poproch</h2>
+                        <h2>Siedziba J&P Moritz Consulting Group Sp. z o. o.</h2>
                         <p><strong>Adres: </strong> ul. Plac Solny 14 lok. 3, 50-062 Wrocław</p>
                         <p><strong>Strona: </strong><Link href="http://jpmcg.pl" className="link-primary" target="_blank">www.jpmcg.pl</Link></p>
                         <p><strong>Facebook: </strong><Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P</Link></p>

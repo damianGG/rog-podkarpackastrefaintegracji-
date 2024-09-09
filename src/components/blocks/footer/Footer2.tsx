@@ -55,7 +55,7 @@ export default function Footer2() {
 
 
 
-                  <Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P Moritz Consulting</Link>
+                  <Link href="https://www.facebook.com/profile.php?id=61558567391191" className="link-primary" target="_blank">J&P Moritz Consulting Group Sp. z o. o.</Link>
 
                 </div>
               </div>
