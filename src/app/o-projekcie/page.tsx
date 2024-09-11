@@ -176,7 +176,7 @@ export default function News() {
                                         <i className="uil uil-check" />W czasie realizacji szkolenia Uczestniczkom projektu przysługuje stypendium szkoleniowe w maksymalnej wysokości 477,41 zł.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />W ramach wsparcia uczestnicy mogą ubiegać się o zwrot kosztów dojazdu, jak również o zwrot kosztów opieki nad dziećmi lub osobą wymagającą wsparcia w codziennym funkcjonowaniu.
+                                        <i className="uil uil-check" />W ramach wsparcia Uczestniczki mogą ubiegać się o zwrot kosztów dojazdu, jak również o zwrot kosztów opieki nad dziećmi lub osobą wymagającą wsparcia w codziennym funkcjonowaniu.
                                     </li>
                                 </ul>
                             </div>
