@@ -157,7 +157,7 @@ export default function News() {
                                     </li>
 
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />Uczestniczki, u których zostanie zdiagnozowana konieczność uzupełnienia kompetencji cyfrowych wezmą udział w 40 godz. szkoleniu składającemu się z 5 modułów (5 modułów x 8 godz.):
+                                        <i className="uil uil-check" />Uczestniczki, u których zostanie zdiagnozowana konieczność uzupełnienia kompetencji cyfrowych wezmą udział w 40 godz. szkoleniu składającym się z 5 modułów (5 modułów x 8 godz.):
                                         <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                             <li> <i className="uil uil-check" />Informacja i dane,</li>
                                             <li> <i className="uil uil-check" />Komunikacja i współpraca,</li>
