@@ -105,7 +105,7 @@ export default function News() {
                                         <i className="uil uil-check" />
                                         W trakcie spotkania zostanie przeprowadzona diagnoza/ocena umiejętności
                                         cyfrowych z wykorzystaniem „Europejskiego narzędzia do oceny poziomu
-                                        kompetencji cyfrowych. W zależności od jego wyniku Uczestniczka zostanie
+                                        kompetencji cyfrowych”. W zależności od jego wyniku Uczestniczka zostanie
                                         lub nie zostanie zakwalifikowana do udziału w szkoleniu z zakresu
                                         kompetencji cyfrowych.
                                     </li>

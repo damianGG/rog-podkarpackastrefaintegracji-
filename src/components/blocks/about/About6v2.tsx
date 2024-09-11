@@ -46,7 +46,7 @@ export default function About6v2() {
                 <i className="uil uil-check" /> Dzięki opracowaniu IPD każda z Uczestniczek projektu otrzyma ofertę wsparcia, obejmującą takie formy pomocy, które zostaną zidentyfikowane u niej jako niezbędne w celu poprawy sytuacji na rynku pracy lub uzyskania zatrudnienia.
               </li>
               <li className="mt-3">
-                <i className="uil uil-check" /> W trakcie spotkania zostanie przeprowadzona diagnoza/ocena umiejętności cyfrowych z wykorzystaniem „Europejskiego narzędzia do oceny poziomu kompetencji cyfrowych. W zależności od jego wyniku Uczestniczka zostanie lub nie zostanie zakwalifikowana do udziału w szkoleniu z zakresu kompetencji cyfrowych.
+                <i className="uil uil-check" /> W trakcie spotkania zostanie przeprowadzona diagnoza/ocena umiejętności cyfrowych z wykorzystaniem „Europejskiego narzędzia do oceny poziomu kompetencji cyfrowych”. W zależności od jego wyniku Uczestniczka zostanie lub nie zostanie zakwalifikowana do udziału w szkoleniu z zakresu kompetencji cyfrowych.
               </li>
               <li className="mt-3">
                 <i className="uil uil-check" /> Każdy Uczestniczka projektu otrzyma śr. 5 godz. zegarowych wsparcia.
