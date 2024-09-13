@@ -131,7 +131,7 @@ export default async function Process7() {
             </div>
             <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze. Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
 
-            <h2 className="display-4 mb-10 px-lg-14">Dokumenty do pobrania</h2>
+
             {!dataFromStrapi ? (
               <p className="text-danger">Nie udało się pobrać dokumentów. Prosimy spróbować później.</p>
             ) : (
