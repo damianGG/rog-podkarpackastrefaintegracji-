@@ -6,22 +6,28 @@ import Link from "next/link";
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 export async function getStrapiData() {
-  const response = await fetch(`${backendLink}/api/dokumenties?sort=rank:asc&populate=*`, {
-    cache: 'no-store',
-    method: 'GET',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
-    },
-  });
+  try {
+    const response = await fetch(`${backendLink}/api/dokumenties?sort=rank:asc&populate=*`, {
+      cache: 'no-store',
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${process.env.BEARER_TOKEN}`,
+      },
+    });
 
-  if (!response.ok) {
-    throw new Error('Failed to fetch data');
+    if (!response.ok) {
+      throw new Error('Failed to fetch data');
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("Error fetching data from Strapi:", error);
+    return null;  // Zwracamy null, jeśli pobieranie się nie powiedzie
   }
-
-  const data = await response.json();
-  return data;
 }
+
 
 export default async function Process7() {
 
@@ -125,19 +131,25 @@ export default async function Process7() {
               </p>
             </div>
             <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze. Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
-            <div className="col-lg-12 order-lg-2">
-              {data.map((item: any) => (
-                <DownloadList
-                  title={item.attributes.tytul}
-                  link1=""
-                  link2=""
-                  // link1={item.attributes.kolorowy.data[0]?.attributes.url}
-                  // link2={item.attributes.czarnobialy.data?.attributes.url}
-                  key={item.id}
-                  className="mb-5"
-                />
-              ))}
-            </div>
+
+            <h2 className="display-4 mb-10 px-lg-14">Dokumenty do pobrania</h2>
+            {!dataFromStrapi ? (
+              <p className="text-danger">Nie udało się pobrać dokumentów. Prosimy spróbować później.</p>
+            ) : (
+              <div className="col-lg-12 order-lg-2">
+                {data.map((item: any) => (
+                  <DownloadList
+                    title={item.attributes.tytul}
+                    link1=""
+                    link2=""
+                    // link1={item.attributes.kolorowy.data[0]?.attributes.url}
+                    // link2={item.attributes.czarnobialy.data?.attributes.url}
+                    key={item.id}
+                    className="mb-5"
+                  />
+                ))}
+              </div>
+            )}
 
 
           </div>
