@@ -41,7 +41,7 @@ export default function News() {
                     </div>
                 </div>
             </section>
-            {/* <Process7 /> */}
+            <Process7 />
         </>
     );
 };
