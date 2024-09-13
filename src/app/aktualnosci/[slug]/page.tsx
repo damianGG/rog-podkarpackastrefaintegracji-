@@ -36,6 +36,8 @@ export default async function BlogDetailsTemplate({ params }: { params: { slug: 
     const photoURL = data.attributes.zdjecie?.data?.attributes?.url;
     const tekstPlikDoPobrania = data.attributes.TekstPlikDoPobrania;
     const downloadURL = data.attributes.PlikDoPobrania?.data?.attributes?.url;
+    console.log('downloadURL', downloadURL);
+
 
 
 
@@ -74,9 +76,13 @@ export default async function BlogDetailsTemplate({ params }: { params: { slug: 
                                     )}
                                     {downloadURL && (
                                         <div className='d-flex align-self-center mt-10'>
-                                            <DownloadElement title={tekstPlikDoPobrania} link1={downloadURL} />
+                                            <DownloadElement
+                                                title={tekstPlikDoPobrania}
+                                                link1={downloadURL}
+                                            />
                                         </div>
                                     )}
+                                    <a href="http://"></a>
                                     <div className="card-body">
                                         <div className="classic-view">
                                             <article className="post">
