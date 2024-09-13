@@ -140,10 +140,9 @@ export default async function Process7() {
                 {data.map((item: any) => (
                   <DownloadList
                     title={item.attributes.tytul}
-                    link1=""
-                    link2=""
-                    // link1={item.attributes.kolorowy.data[0]?.attributes.url}
-                    // link2={item.attributes.czarnobialy.data?.attributes.url}
+
+                    link1={item.attributes.kolorowy.data[0]?.attributes.url}
+                    link2={item.attributes.czarnobialy.data?.attributes.url}
                     key={item.id}
                     className="mb-5"
                   />
