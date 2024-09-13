@@ -8,7 +8,6 @@ const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 export async function getStrapiData() {
   try {
     const response = await fetch(`${backendLink}/api/dokumenties?sort=rank:asc&populate=*`, {
-      cache: 'no-store',
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
