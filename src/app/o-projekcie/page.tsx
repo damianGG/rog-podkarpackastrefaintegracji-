@@ -43,15 +43,27 @@ export default function News() {
             </section>
             <div className="container mb-15 mt-15" >
                 <div className=" mt-4 mb-15">
-                    <p>Wartość projektu: <span className="fw-bold">1 282 278,43 zł</span> </p>
-                    <p>Wysokość wkładu Funduszy Europejskich:<span className="fw-bold"> 1 089 936,67 zł</span></p>
-                    <p className="mb-3 fw-bold lead fs-lg">Celem głównym projektu jest aktywizacja zawodowa 72 biernych zawodowo kobiet
-                        w wieku produkcyjnym (18 – 59 lat) zamieszkujących w rozumieniu Kodeksu
-                        Cywilnego miasto Radom oraz gminę Wieniawa, w szczególności biernych
-                        zawodowo kobiet z wykształceniem ISCED 3 i niższym oraz w wieku do lat 30 w
-                        okresie realizacji projektu (1.04.2024-31.03.2025), która będzie wynikiem udzielenia
-                        profesjonalnego wsparcia aktywizującego. W konsekwencji co najmniej 66% biernych
-                        kobiet poprawi swoją sytuację na rynku pracy.</p>
+                    <p>Wartość projektu: <span className="fw-bold">726 306,48 zł</span> </p>
+                    <p>Wysokość wkładu Funduszy Europejskich:<span className="fw-bold"> 617 360,50 zł</span></p>
+                    <p className="mb-3 fw-bold lead fs-lg">
+                        Głównym celem projektu jest kompleksowa aktywizacja zawodowa 58 osób (53
+                        kobiet i 5 mężczyzn) pozostających bez pracy (bezrobotnych i biernych zawodowo),
+                        powyżej 18 roku życia, zamieszkałych na obszarze woj. lubelskiego w rozumieniu
+                        KC, ukierunkowana na wsparcie zrównoważonego udziału w rynku pracy, zwłaszcza
+                        kobiet poprzez m.in. wsparcie doradcze, psychologiczne, szkoleniowe, stażowe, co
+                        przyczyni się do zwiększenia możliwości ich zatrudnienia i poprawę ich pozycji na
+
+                        rynku pracy (zwłaszcza kobiet i osób znajdujących się w trudnej sytuacji na rynku
+                        pracy z powodu trudności godzenia życia zawodowego z obowiązkami rodzinnymi/
+                        opiekuńczymi) w okresie realizacji projektu tj. od 01.07.2024 r. do 30.06.2025 r. Co
+                        najmniej 65% grupy mają stanowić kobiety powracające na rynek pracy.
+
+                        Dzięki udziałowi w projekcie Uczestnicy uzyskają kwalifikacje zawodowe, podniosą
+                        poziom wiedzy w zakresie równości kobiet i mężczyzn, poprawią swoją sytuację na
+                        rynku pracy np. poprzez podjęcie kształcenia/szkolenia, podjęcie pracy, założenie
+                        własnej działalności gospodarczej lub w przypadku osób biernych zawodowo
+                        rozpoczęcie poszukiwania pracy.
+                    </p>
                 </div>
 
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">

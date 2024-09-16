@@ -2,7 +2,8 @@ import Link from "next/link";
 // CUSTOM UTILS
 import { slideInDownAnimate, zoomInAnimate } from "@/utils/animation";
 import Image from "next/image";
-import DietetykPhoto from "../../../../public/img/photos/dietetyk.webp";
+// import DietetykPhoto from "lubelskie1.jpg";
+
 
 export default function Hero4() {
   return (
@@ -19,7 +20,9 @@ export default function Hero4() {
             />
             <figure className="rounded">
               <Image
-                src={DietetykPhoto}
+                src="/img/photos/lubelskie1.jpg"
+                width="400"
+                height="300"
                 // priority={true} 
                 // placeholder='blur' // "empty" | "blur"
                 alt="hero"
@@ -32,7 +35,7 @@ export default function Hero4() {
 
           <div className="col-lg-5 mt-lg-n10 text-center text-lg-start">
             <h1 className="display-1 mb-5 fs-40" style={slideInDownAnimate("600ms")}>
-              Kobieta*Aktywność*Sukces
+              Wracam do pracy!
             </h1>
 
 

@@ -14,11 +14,11 @@ export default function About6() {
 
         <div className="col-lg-12">
 
-          <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Kobieta * Aktywność * Sukces”</h2>
+          <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Wracam do pracy!”</h2>
 
           <p className="lead fs-lg">
-            Zapraszamy niepracujące kobiety w wieku 18-59 lat, zamieszkujące miasto Radom lub gminę
-            Wieniawa do udziału w projekcie „Kobieta * Aktywność * Sukces”.
+            Zapraszamy zapraszamy kobiety powracające na rynek
+            pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą zależną.
           </p>
         </div>
       </div>
@@ -33,22 +33,25 @@ export default function About6() {
           <div className="row gy-3 ">
             <div className="col-xl-6">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li className="mt-3"><i className="uil uil-check"></i> spotkania z doradcą zawodowym</li>
-                <li className="mt-3"><i className="uil uil-check"></i>szkolenia zawodowe niezbędne w zawodach związanych z usługami zdrowotnymi i
-                  opiekuńczymi</li>
+                <li className="mt-3"><i className="uil uil-check"></i> wsparcie doradcy zawodowego w zaplanowaniu ścieżki kariery zawodowej</li>
+                <li className="mt-3"><i className="uil uil-check"></i>wsparcie psychologiczne</li>
+                <li className="mt-3"><i className="uil uil-check"></i>szkolenie zawodowe umożliwiające zdobycie nowych kwalifikacji</li>
+                <li className="mt-3"><i className="uil uil-check"></i>stypendium szkoleniowe (śr. 1 074,18 zł w zależności od długości szkolenia)</li>
+                <li className="mt-3"><i className="uil uil-check"></i>wyżywienie w trakcie szkolenia</li>
 
               </ul>
             </div>
             <div className="col-xl-6">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li className="mt-3"><i className="uil uil-check"></i>stypendium szkoleniowe za udział w każdym kursie</li>
-                <li className="mt-3"><i className="uil uil-check"></i>wyżywienie w trakcie szkoleń</li>
-                <li className="mt-3"><i className="uil uil-check"></i>możliwość zwrotu kosztów dojazdu</li>
-                <li className="mt-3"><i className="uil uil-check"></i>możliwość zwrotu kosztów opieki nad osobą wymagającą wsparcia w codziennym
-                  funkcjonowaniu.</li>
+                <li className="mt-3"><i className="uil uil-check"></i>materiały szkoleniowe</li>
+                <li className="mt-3"><i className="uil uil-check"></i>staż zawodowy trwający 3 miesiące (dla części Uczestników)</li>
+                <li className="mt-3"><i className="uil uil-check"></i>stypendium stażowe (1 790,30 zł miesięcznie)</li>
+                <li className="mt-3"><i className="uil uil-check"></i>ubezpieczenia społeczne, zdrowotne i NNW</li>
+                <li className="mt-3"><i className="uil uil-check"></i>zwrot kosztów dojazdu na szkolenia oraz staż zawodowy</li>
               </ul>
             </div>
-            <p className="text-center fs-20 mt-15">Udział w projekcie jest bezpłatny.</p>
+            <p className="text-center fs-20 mt-15">Okres realizacji projektu: 01.07.2024 r. – 30.06.2025 r.</p>
+
           </div>
 
         </div>
@@ -61,18 +64,13 @@ export default function About6() {
             <div className="col-xl-12">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                 <li><i className="uil uil-check"></i> wiek 18-59 lat</li>
-                <li className="mt-3"><i className="uil uil-check"></i>zamieszkiwanie: miasto Radom lub gmina Wieniawa</li>
-                <li className="mt-3"><i className="uil uil-check"></i>osoba bierna zawodowa – osoba, która w danej chwili nie tworzy zasobów siły
-                  roboczej (tzn. nie jest osobą pracującą ani bezrobotną); w tym m.in.: studenci studiów
-                  stacjonarnych</li>
+                <li className="mt-3"><i className="uil uil-check"></i>pozostające bez pracy (bezrobotne lub bierne zawodowo)</li>
+                <li className="mt-3"><i className="uil uil-check"></i>mieszkające na obszarze woj. lubelskiego</li>
               </ul>
             </div>
 
-            <p className="">Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
-              wymienione kryteria, a w szczególności bierne zawodowo kobiety w wieku 18-29 lat, które
-              posiadają wykształcenie ponadgimnazjalne lub niższe.</p>
-            <p className="">Komplet dokumentów rekrutacyjnych (patrz zakładka <a className="link-primary" href="https://aktywnekobiety.pl/rekrutacja">„Rekrutacja”</a> ) można składać osobiście
-              w Biurze Projektu bądź przesyłać je drogą pocztową, kurierem lub e-mailem.</p>
+            <p className="">W szczególności do udziału w projekcie zapraszamy kobiety powracające na rynek
+              pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą zależną.</p>
 
           </div>
 

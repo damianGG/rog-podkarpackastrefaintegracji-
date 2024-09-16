@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logoUE from '../../../../../public/img/logos/Poziomy_podstawowy_kolorowy.jpg'
+import logoUE from '../../../../../public/img/logos/lubelskie_logo-removebg-preview.png'
 // ===================================================================
 
 // ===================================================================
@@ -8,9 +8,11 @@ export default function Toplogo() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Image
-        src={logoUE}
+        src="/img/logos/lubelskie_logo-removebg-preview.png"
         alt="logo"
         sizes="90vw"
+        width={1200}
+        height={100}
         style={{
           width: '100%',
           height: 'auto',

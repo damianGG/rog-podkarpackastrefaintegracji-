@@ -7,7 +7,7 @@ const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 export async function getStrapiData() {
   try {
-    const response = await fetch(`${backendLink}/api/dokumenties?sort=rank:asc&populate=*`, {
+    const response = await fetch(`${backendLink}/api/dokumenty-wracam-do-pracies?sort=rank:asc&populate=*`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -141,7 +141,7 @@ export default async function Process7() {
                     key={item.id}
                     title={item.attributes.tytul}
                     link1={item.attributes.kolorowy?.data?.[0]?.attributes?.url || ''}
-                    link2={item.attributes.czarnobialy?.data?.attributes?.url || ''}
+                    link2={item.attributes.czarnobialy?.data?.[0].attributes?.url || ''}
                     className="mb-5"
                   />
                 ))}
