@@ -5,6 +5,32 @@ import { doPobrania } from "@/data/process";
 import Link from "next/link";
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
+// Definicje interfejsów
+interface FileData {
+  attributes: {
+    url: string;
+  };
+}
+
+interface OptionalFile {
+  data?: FileData[];
+}
+
+interface DocumentAttributes {
+  tytul: string;
+  kolorowy?: OptionalFile;
+  czarnobialy?: OptionalFile;
+}
+
+interface DocumentItem {
+  id: number;
+  attributes: DocumentAttributes;
+}
+
+interface StrapiResponse {
+  data: DocumentItem[];
+}
+
 export async function getStrapiData() {
   try {
     const response = await fetch(`${backendLink}/api/dokumenty-wracam-do-pracies?sort=rank:asc&populate=*`, {
@@ -23,7 +49,7 @@ export async function getStrapiData() {
     return data;
   } catch (error) {
     console.error("Error fetching data from Strapi:", error);
-    return null;
+    return { data: [] }; // Zwraca pustą tablicę danych zamiast null
   }
 }
 
@@ -90,18 +116,19 @@ export default async function Process7() {
             <p>Komplet dokumentów rekrutacyjnych można składać osobiście w Biurze projektu bądź przesyłać je listownie, kurierem lub e-mailem. </p>
             <p>Na komplet dokumentów rekrutacyjnych składa się:</p>
             <div className="col-lg-12 order-lg-2">
-              {doPobrania.map((item) => (
-                item ? (
-                  <ProcessList1
-                    key={String(item.no)}
-                    no={String(item.no)}
-                    title={item.title}
-                    subtitle={item.subtitle}
-                    className={item.className}
-                    shadow={item.shadow}
+              {data.length === 0 ? (
+                <p className="text-center">Aktualnie brak dokumentów do pobrania.</p>
+              ) : (
+                data.map((item: DocumentItem) => (
+                  <DownloadList
+                    key={item.id}
+                    title={item.attributes.tytul}
+                    link1={item.attributes.kolorowy?.data?.[0]?.attributes?.url || ''}
+                    link2={item.attributes.czarnobialy?.data?.[0]?.attributes?.url || ''}
+                    className="mb-5"
                   />
-                ) : null
-              ))}
+                ))
+              )}
             </div>
 
 
