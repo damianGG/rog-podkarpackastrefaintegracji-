@@ -1,3 +1,5 @@
+
+
 import { ProcessList1 } from "@/components/reuseable/process-list";
 import DownloadList from "@/components/reuseable/process-list/DownloadList";
 import { doPobrania2, processList1 } from "@/data/process";
@@ -35,6 +37,7 @@ export async function getStrapiData() {
   try {
     const response = await fetch(`${backendLink}/api/dokumenty-wracam-do-pracies?sort=rank:asc&populate=*`, {
       method: 'GET',
+      cache: "no-cache",
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${process.env.BEARER_TOKEN}`,
