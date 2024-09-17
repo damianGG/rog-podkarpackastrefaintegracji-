@@ -23,7 +23,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres (biuro projektu)</p>
                   <address>
-                    ul. Grzecznarowskiego 2, pok. 204 (II piętro) <br className="d-none d-md-block" /> 26-600 Radom
+                    ul. Budowlana 50, pok. 202<br className="d-none d-md-block" />20-469 Lublin
                   </address>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-phone-alt me-2 fs-25"></i>Telefon</p>
                   <p>
-                    +48 881 500 075 <br />
+                    +48 530 871 800 <br />
                   </p>
                 </div>
               </div>
@@ -41,8 +41,8 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</p>
 
-                  <Link href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary">
-                    aktywnekobiety@jpmcg.pl
+                  <Link href="mailto:wracamdopracy@jpmcg.pl" className="link-primary">
+                    wracamdopracy@jpmcg.pl
                   </Link>
                   <br className="d-none d-md-block" />
                 </div>

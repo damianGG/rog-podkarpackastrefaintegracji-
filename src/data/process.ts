@@ -17,7 +17,7 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "kobiety w wieku 18 - 59 lat",
+    title: "osoby powyżej 18 roku życia",
     subtitle: "",
     shadow: true
   },
@@ -26,11 +26,11 @@ export const processList1 = [
     title: "bierne zawodowo",
     className: "me-lg-6 mt-6",
     shadow: true,
-    subtitle: "bierne zawodowo osoba, która w danej chwili nie tworzy zasobów siły roboczej (tzn. nie jest osobą pracującą ani bezrobotną)"
+    subtitle: "zamieszkujące na obszarze woj. lubelskiego"
   },
   {
     no: "3",
-    title: "mieszkające w Radomiu (68 os.) lub gminie Wieniawa (4 os.)",
+    title: "pozostające bez pracy – bezrobotne lub bierne zawodowe",
     className: "me-lg-6 mt-6",
     subtitle: "",
     shadow: true

@@ -90,19 +90,9 @@ export default async function Process7() {
 
             <p>
               Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
-              wymienione kryteria, a w szczególności bierne zawodowo kobiety w wieku 18 – 29 lat,
-              które posiadają wykształcenie ponadgimnazjalne lub niższe.
-            </p>
-
-            <p>
-              Istnieje możliwość skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy
-              asystenta osoby z niepełnosprawnością.
-            </p>
-            <p className="mb-6">
-              Ponadto dla kobiet, które mają problem z dojazdem do Biura projektu (gdyż posiadają pod
-              opieką dziecko/dzieci/osoby wymagające wsparcia; kobiety z niepełnosprawnościami)
-              możliwy jest dojazd do Kandydatki do domu i pomoc kadry projektu w wypełnieniu
-              dokumentów rekrutacyjnych.
+              wymienione kryteria, a w szczególności zapraszamy kobiety powracające na rynek
+              pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą
+              zależną.
             </p>
           </div>
         </div>
@@ -116,24 +106,32 @@ export default async function Process7() {
             <p>Komplet dokumentów rekrutacyjnych można składać osobiście w Biurze projektu bądź przesyłać je listownie, kurierem lub e-mailem. </p>
             <p>Na komplet dokumentów rekrutacyjnych składa się:</p>
             <div className="col-lg-12 order-lg-2">
-              {data.length === 0 ? (
-                <p className="text-center">Aktualnie brak dokumentów do pobrania.</p>
-              ) : (
-                data.map((item: DocumentItem) => (
-                  <DownloadList
-                    key={item.id}
-                    title={item.attributes.tytul}
-                    link1={item.attributes.kolorowy?.data?.[0]?.attributes?.url || ''}
-                    link2={item.attributes.czarnobialy?.data?.[0]?.attributes?.url || ''}
-                    className="mb-5"
+              {doPobrania.map((item) => (
+                item ? (
+                  <ProcessList1
+                    key={String(item.no)}
+                    no={String(item.no)}
+                    title={item.title}
+                    subtitle={item.subtitle}
+                    className={item.className}
+                    shadow={item.shadow}
                   />
-                ))
-              )}
+                ) : null
+              ))}
             </div>
 
 
           </div>
         </div>
+        <p className="text-center mt-5">
+          Jeśli potrzebujesz pomocy w wypełnieniu dokumentów rekrutacyjnych zapraszamy
+          do Biura projektu (patrz zakładka „Kontakt”). Ponadto zapewniamy możliwość
+          skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy asystenta
+          osoby z niepełnosprawnością. Dla osób, które mają problem z dojazdem do Biura
+          projektu (gdyż np. posiadają pod opieką dziecko/dzieci/osoby zależne; osoby z
+          niepełnosprawnościami) możliwy jest dojazd do Kandydatów do domu i pomoc kadry
+          projektu w wypełnieniu dokumentów rekrutacyjnych.
+        </p>
         <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">biurem projektu.</Link> </p>
       </div>
       <div className="container pt-10 pt-md-10 pb-13 pb-md-15">

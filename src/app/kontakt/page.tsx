@@ -49,10 +49,10 @@ export default function Kontakt() {
                 <div className="row">
                     <div className="col text-center">
                         <h1>Biuro Projektu</h1>
-                        <p><strong>Adres:</strong> ul. Grzecznarowskiego 2, pok. 204 (II piętro), 26-600 Radom</p>
+                        <p><strong>Adres:</strong> ul. Budowlana 50, pok. 202, 20-469 Lublin</p>
                         <p>Biuro projektu czynne jest od poniedziałku do piątku w godzinach 8:00 - 16:00 (istnieje możliwość umówienia się na inne godziny spotkania)</p>
-                        <p><strong>Tel:</strong> +48 881 500 075</p>
-                        <p><strong>E-mail:</strong> <a href="mailto:aktywnekobiety@jpmcg.pl" className="link-primary" target="_blank">aktywnekobiety@jpmcg.pl</a> </p>
+                        <p><strong>Tel:</strong> +48 530 871 800</p>
+                        <p><strong>E-mail:</strong> <a href="mailto:wracamdopracy@jpmcg.pl" className="link-primary" target="_blank">wracamdopracy@jpmcg.pl</a> </p>
                     </div>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.7890548955743!2d21.147012361731125!3d51.38988090482032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47185eb9f9d02fad%3A0xf0f1488f81b1133d!2sAleja%20J%C3%B3zefa%20Grzecznarowskiego%202%2C%2026-606%20Radom!5e0!3m2!1spl!2spl!4v1715142817877!5m2!1spl!2spl"
