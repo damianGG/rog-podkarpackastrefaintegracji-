@@ -55,7 +55,7 @@ export default function Kontakt() {
                         <p><strong>E-mail:</strong> <a href="mailto:wracamdopracy@jpmcg.pl" className="link-primary" target="_blank">wracamdopracy@jpmcg.pl</a> </p>
                     </div>
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2960.7890548955743!2d21.147012361731125!3d51.38988090482032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47185eb9f9d02fad%3A0xf0f1488f81b1133d!2sAleja%20J%C3%B3zefa%20Grzecznarowskiego%202%2C%2026-606%20Radom!5e0!3m2!1spl!2spl!4v1715142817877!5m2!1spl!2spl"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9997.448458812958!2d22.54705367828883!3d51.21240461240658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472257ba2f171603%3A0xd196c07539b51414!2sBudowlana%2050%2C%2020-469%20Lublin!5e0!3m2!1spl!2spl!4v1727772205958!5m2!1spl!2spl"
                         width={600}
                         height={450}
                         style={{ border: 0 }}

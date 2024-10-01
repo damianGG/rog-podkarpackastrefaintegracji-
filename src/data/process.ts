@@ -23,10 +23,10 @@ export const processList1 = [
   },
   {
     no: "2",
-    title: "bierne zawodowo",
+    title: "zamieszkujące na obszarze woj. lubelskiego",
     className: "me-lg-6 mt-6",
     shadow: true,
-    subtitle: "zamieszkujące na obszarze woj. lubelskiego"
+    subtitle: ""
   },
   {
     no: "3",
@@ -42,13 +42,13 @@ export const doPobrania = [
   {
     no: "1",
     className: "me-lg-6 text-start",
-    title: "Formularz rekrutacyjny",
-    subtitle: "załącznik nr 1 do Regulaminu rekrutacji i uczestnictwa w projekcie",
+    title: "Wydrukuj dokumenty rekrutacyjne i wypełnij je",
+    subtitle: "",
     shadow: true
   },
   {
     no: "2",
-    title: "Zaświadczenie z ZUS poświadczające status osoby jako bezrobotnej/biernej zawodowo lub potwierdzenie wygenerowania z Platformy Usług Elektronicznych ZUS (PUE ZUS) potwierdzające status danej osoby w dniu jego wydania",
+    title: "Wybierz z Zakładu Ubezpieczeń Społecznych lub Powiatowego Urzędu Pracy wymagane zaświadczenie",
     className: "me-lg-6 mt-6 text-start",
     subtitle: "",
     shadow: true
@@ -62,40 +62,26 @@ export const doPobrania = [
   },
   {
     no: "4",
-    title: "Dokument potwierdzający miejsce zamieszkania na terenie miasta Radom lub gminy Wieniawa ",
+    title: "Zgromadź pozostałe wymagane załączniki",
     className: "me-lg-6 mt-6 text-start",
     shadow: true,
-    subtitle: "(np. zaświadczenie z Urzędu Miasta/Gminy lub deklaracja za śmieci lub akt własności lokalu mieszkalnego lub umowa najmu lokalu mieszkalnego lub PIT lub faktura np. za telefon (gdzie wskazany jest adresem miejsca zamieszkania) lub  w przypadku osób pobierających np. 800 plus lub bon żłobkowy lub świadczenia z rodzinnego kapitału opiekuńczego -  decyzji wydanej w tej sprawie gdzie wskazano adres miejsca zamieszkania wnioskodawcy lub dokument  z ZUS potwierdzający zgłoszenie do ubezpieczeń i miejsce zamieszkania Uczestniczki projektu);"
+    subtitle: ""
   },
   {
     no: "5",
-    title: "Orzeczenie o stopniu niepełnosprawności ",
+    title: `złóż komplet dokumentów osobiście lub za pośrednictwem osoby trzeciej do Biura projektu bądź prześlij je e-mailem/pocztą tradycyjną/kurierem na adres Biura projektu/email (patrz zakładka "kontakt")`,
     className: "me-lg-6 mt-6 text-start",
     shadow: true,
-    subtitle: "w rozumieniu ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych (Dz. U. z 2023 r. poz. 100, z późn. zm.) lub orzeczenia albo innego dokumentu, o którym mowa w ustawie z dnia 19 sierpnia 1994 r. o ochronie zdrowia psychicznego (Dz. U. z 2022 r. poz. 2123)(jeśli dotyczy);"
+    subtitle: ""
   },
   {
     no: "6",
-    title: "Oświadczenie o kryzysie bezdomności lub dotknięciu wykluczeniem z dostępu do mieszkań (jeśli dotyczy);",
+    title: "Skontaktujemy się z Tobą telefonicznie lub mailowo, żeby poinformować o zakwalifikowaniu do projektu.",
     className: "me-lg-6 mt-6 text-start",
     subtitle: "",
     shadow: true
   },
-  {
-    no: "7",
-    title: "Klauzula informacyjna Instytucji Zarządzającej ",
-    className: "me-lg-6 mt-6 text-start",
-    subtitle: "załącznik nr 2 do Regulaminu rekrutacji i uczestnictwa w projekcie",
-    shadow: true,
-  },
-  ,
-  {
-    no: "8",
-    title: "Klauzula informacyjna Instytucji Pośredniczącej ",
-    className: "me-lg-6 mt-6 text-start",
-    subtitle: "załącznik nr 3 do Regulaminu rekrutacji i uczestnictwa w projekcie",
-    shadow: true,
-  },
+ 
   
 
 ];

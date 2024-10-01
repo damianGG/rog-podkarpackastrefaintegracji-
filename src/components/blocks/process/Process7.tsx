@@ -80,15 +80,9 @@ export default async function Process7() {
           </div>
 
           <div className="col-lg-6">
-            <h2 className="display-6 mb-3">Jak to działa?</h2>
+            <h2 className="display-6 mb-3">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE?</h2>
             <p className="lead fs-lg pe-lg-5">
 
-            </p>
-
-            <p>
-              Rekrutacja realizowana będzie z uwzględnieniem zasady równych szans i płci oraz
-              niedyskryminacji, w tym dostępności dla osób z niepełnosprawnościami. Przy rekrutacji
-              stosowane będą także zasady zrównoważonego rozwoju.
             </p>
 
             <p>
@@ -106,21 +100,98 @@ export default async function Process7() {
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
 
             <h2 className="display-4 mb-4 px-lg-14">Jak zgłosić się do projektu?</h2>
-            <p>Komplet dokumentów rekrutacyjnych można składać osobiście w Biurze projektu bądź przesyłać je listownie, kurierem lub e-mailem. </p>
-            <p>Na komplet dokumentów rekrutacyjnych składa się:</p>
+            <p>Jeśli spełniasz warunki udziału w projekcie to: </p>
             <div className="col-lg-12 order-lg-2">
-              {doPobrania.map((item) => (
-                item ? (
-                  <ProcessList1
-                    key={String(item.no)}
-                    no={String(item.no)}
-                    title={item.title}
-                    subtitle={item.subtitle}
-                    className={item.className}
-                    shadow={item.shadow}
-                  />
-                ) : null
-              ))}
+              <div className="shadow-lg mt-10">
+                <div className="card-body p-6">
+                  <div className="d-flex flex-row">
+                    <div>
+                      <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+                        <span className="number">1</span>
+                      </span>
+                    </div>
+
+                    <div>
+                      <h4 className="mb-1 text-start">Wydrukuj dokumenty rekrutacyjne i wypełnij je</h4>
+                      <p className="mb-0"></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="shadow-lg mt-10">
+                <div className="card-body p-6">
+                  <div className="d-flex flex-row">
+                    <div>
+                      <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+                        <span className="number">2</span>
+                      </span>
+                    </div>
+
+                    <div>
+                      <h4 className="mb-1 text-start">Wybierz z Zakładu Ubezpieczeń Społecznych lub Powiatowego Urzędu Pracy
+                        wymagane zaświadczenie</h4>
+                      <p className="mb-0"></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="shadow-lg mt-10">
+                <div className="card-body p-6">
+                  <div className="d-flex flex-row">
+                    <div>
+                      <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+                        <span className="number">3</span>
+                      </span>
+                    </div>
+
+                    <div>
+                      <h4 className="mb-1 text-start">Zgromadź pozostałe wymagane załączniki</h4>
+                      <p className="mb-0"></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="shadow-lg mt-10">
+                <div className="card-body p-6">
+                  <div className="d-flex flex-row">
+                    <div>
+                      <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+                        <span className="number">4</span>
+                      </span>
+                    </div>
+
+                    <div>
+                      <h4 className="mb-1 text-start">Złóż komplet dokumentów osobiście lub za pośrednictwem osoby trzeciej do Biura
+                        projektu bądź prześlij je e-mailem/pocztą tradycyjną/kurierem na adres Biura
+                        projektu/email (patrz zakładka <a className="link-primary" href="/kontakt">„Kontakt”</a>) </h4>
+                      <p className="mb-0"></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div className="shadow-lg mt-10">
+                <div className="card-body p-6">
+                  <div className="d-flex flex-row">
+                    <div>
+                      <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+                        <span className="number">5</span>
+                      </span>
+                    </div>
+
+                    <div>
+                      <h4 className="mb-1 text-start">Skontaktujemy się z Tobą telefonicznie lub mailowo, żeby poinformować o
+                        zakwalifikowaniu do projektu. </h4>
+                      <p className="mb-0"></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
             </div>
 
 
@@ -128,14 +199,14 @@ export default async function Process7() {
         </div>
         <p className="text-center mt-5">
           Jeśli potrzebujesz pomocy w wypełnieniu dokumentów rekrutacyjnych zapraszamy
-          do Biura projektu (patrz zakładka „Kontakt”). Ponadto zapewniamy możliwość
+          do Biura projektu (patrz zakładka  <a className="link-primary" href="/kontakt">„Kontakt”</a>). Ponadto zapewniamy możliwość
           skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy asystenta
-          osoby z niepełnosprawnością. Dla osób, które mają problem z dojazdem do Biura
+          osoby z niepełnosprawnością.<br /> Dla osób, które mają problem z dojazdem do Biura
           projektu (gdyż np. posiadają pod opieką dziecko/dzieci/osoby zależne; osoby z
           niepełnosprawnościami) możliwy jest dojazd do Kandydatów do domu i pomoc kadry
           projektu w wypełnieniu dokumentów rekrutacyjnych.
         </p>
-        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">biurem projektu.</Link> </p>
+        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">Biurem projektu.</Link> </p>
       </div>
       <div className="container pt-10 pt-md-10 pb-13 pb-md-15">
 

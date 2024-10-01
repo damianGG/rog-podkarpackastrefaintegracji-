@@ -17,7 +17,7 @@ export default function About6() {
           <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Wracam do pracy!”</h2>
 
           <p className="lead fs-lg">
-            Zapraszamy zapraszamy kobiety powracające na rynek
+            W szczególności do udziału w projekcie zapraszamy kobiety powracające na rynek
             pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą zależną.
           </p>
         </div>
@@ -63,7 +63,7 @@ export default function About6() {
           <div className="row gy-3 ">
             <div className="col-xl-12">
               <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                <li><i className="uil uil-check"></i> wiek 18-59 lat</li>
+                <li><i className="uil uil-check"></i>w wieku powyżej 18 roku życia</li>
                 <li className="mt-3"><i className="uil uil-check"></i>pozostające bez pracy (bezrobotne lub bierne zawodowo)</li>
                 <li className="mt-3"><i className="uil uil-check"></i>mieszkające na obszarze woj. lubelskiego</li>
               </ul>
