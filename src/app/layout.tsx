@@ -13,8 +13,8 @@ import AccessibilityButton from "@/components/reuseable/AccessibilityButton";
 const manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Projekt Wracam do pracy!",
-  description: "Projekt Wracam do pracy!",
+  title: "Projekt „Czas Kobiet!",
+  description: "Projekt „Czas Kobiet!",
 };
 
 export default function RootLayout({
@@ -27,7 +27,13 @@ export default function RootLayout({
 
     <html lang="pl" data-bs-theme="light">
       <head>
-        <link rel="icon" type="image/x-icon" sizes="16x16" href="/img/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png" />
+        <link rel="manifest" href="/ico/site.webmanifest" />
+        <link rel="mask-icon" href="/ico/safari-pinned-tab.svg" color="#5bbad5" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
       </head>
       <body className={manrope.className}>
 

@@ -20,7 +20,7 @@ export default function Hero4() {
             />
             <figure className="rounded">
               <Image
-                src="/img/photos/lubelskie1.jpg"
+                src="/img/photos/women_meet.jpg"
                 width="400"
                 height="300"
                 // priority={true} 
@@ -35,7 +35,7 @@ export default function Hero4() {
 
           <div className="col-lg-5 mt-lg-n10 text-center text-lg-start">
             <h1 className="display-1 mb-5 fs-40" style={slideInDownAnimate("600ms")}>
-              Wracam do pracy!
+              „Czas Kobiet!”
             </h1>
 
 

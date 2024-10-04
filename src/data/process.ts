@@ -17,24 +17,17 @@ export const processList1 = [
   {
     no: "1",
     className: "me-lg-6",
-    title: "osoby powyżej 18 roku życia",
+    title: "sprawujące opiekę nad dzieckiem do lat 7 oraz osobami potrzebującymi wsparcia w codziennym funkcjonowaniu, powracające na rynek po zakończonym okresie sprawowania opieki",
     subtitle: "",
     shadow: true
   },
   {
     no: "2",
-    title: "zamieszkujące na obszarze woj. lubelskiego",
+    title: "mieszkające na obszarze woj. świętokrzyskiego",
     className: "me-lg-6 mt-6",
     shadow: true,
     subtitle: ""
-  },
-  {
-    no: "3",
-    title: "pozostające bez pracy – bezrobotne lub bierne zawodowe",
-    className: "me-lg-6 mt-6",
-    subtitle: "",
-    shadow: true
-  },
+  }
 
 ];
 

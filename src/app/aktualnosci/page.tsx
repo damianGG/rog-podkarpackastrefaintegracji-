@@ -1,30 +1,37 @@
-import Link from "next/link"
-import type { Metadata } from 'next'
+import Link from "next/link";
+import type { Metadata } from 'next';
 import { format } from 'date-fns';
 import { pl } from 'date-fns/locale';
-import './style.css'
-import flagaUe from '@/icons/flaga-ue-tlo.png'
+import './style.css';
+import flagaUe from '@/icons/flaga-ue-tlo.png';
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 async function getStrapiData() {
-    const data = await fetch(`${backendLink}/api/aktualnosci-wracam-do-pracies?sort=id:desc`,
-
-        {
-            cache: 'no-store',
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
-            },
+    try {
+        const response = await fetch(`${backendLink}/api/aktualnosci-wracam-do-pracies?sort=id:desc`,
+            {
+                cache: 'no-store',
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${process.env.BEARER_TOKEN}`
+                },
+            }
+        );
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
         }
-    );
-    return data.json();
+        return await response.json();
+    } catch (error) {
+        console.error('Failed to fetch data:', error);
+        return { data: [] }; // Return empty data if the backend fails
+    }
 }
 
 export const metadata: Metadata = {
     title: 'Aktualności o projekcie Kobieta-Aktywność-Sukces',
     description: 'Aktualności o projekcie Kobieta-Aktywność-Sukces w Radomiu i gminie Wieniawa',
-}
+};
 
 function createSlug(text: string): string {
     const polishChars: { [key: string]: string } = {
@@ -89,35 +96,41 @@ export default async function News() {
             <div className="container mb-15 mt-15">
                 <div className="row gx-0 gx-md-3 gx-xl-8 gy-8 align-items-center">
 
-                    {sortedData.map((article: any) => {
-                        const slug = createSlug(article.attributes.tytul);
-                        const articleUrl = `/aktualnosci/${article.id}-${slug}`;
+                    {sortedData.length > 0 ? (
+                        sortedData.map((article: any) => {
+                            const slug = createSlug(article.attributes.tytul);
+                            const articleUrl = `/aktualnosci/${article.id}-${slug}`;
 
-                        return (
-                            <div className="col-md-4" key={article.id}>
-                                <Link href={articleUrl}>
-                                    <div className="card news-card">
-                                        <div className="card-body">
-                                            <div className="post-header">
-                                                <h2 className="post-title h3 mt-1 mb-3">{article.attributes.tytul}</h2>
+                            return (
+                                <div className="col-md-4" key={article.id}>
+                                    <Link href={articleUrl}>
+                                        <div className="card news-card">
+                                            <div className="card-body">
+                                                <div className="post-header">
+                                                    <h2 className="post-title h3 mt-1 mb-3">{article.attributes.tytul}</h2>
+                                                </div>
+                                                <div className="post-content">
+                                                    <p>{article.attributes.podtytul}</p>
+                                                </div>
                                             </div>
-                                            <div className="post-content">
-                                                <p>{article.attributes.podtytul}</p>
+                                            <div className="card-footer">
+                                                <ul className="post-meta d-flex mb-0">
+                                                    <li className="post-date">
+                                                        <i className="uil uil-calendar-alt"></i>
+                                                        <span>{format(new Date(article.attributes.data), 'dd MMMM yyyy', { locale: pl })}</span>
+                                                    </li>
+                                                </ul>
                                             </div>
                                         </div>
-                                        <div className="card-footer">
-                                            <ul className="post-meta d-flex mb-0">
-                                                <li className="post-date">
-                                                    <i className="uil uil-calendar-alt"></i>
-                                                    <span>{format(new Date(article.attributes.data), 'dd MMMM yyyy', { locale: pl })}</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </Link>
-                            </div>
-                        );
-                    })}
+                                    </Link>
+                                </div>
+                            );
+                        })
+                    ) : (
+                        <div className="col-12 text-center">
+                            <p>Brak dostępnych aktualności.</p>
+                        </div>
+                    )}
 
                 </div>
             </div>

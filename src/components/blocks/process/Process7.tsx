@@ -1,5 +1,3 @@
-
-
 import { ProcessList1 } from "@/components/reuseable/process-list";
 import DownloadList from "@/components/reuseable/process-list/DownloadList";
 import { doPobrania2, processList1 } from "@/data/process";
@@ -56,9 +54,7 @@ export async function getStrapiData() {
   }
 }
 
-
 export default async function Process7() {
-
   const dataFromStrapi = await getStrapiData();
   const data = dataFromStrapi?.data || [];
 
@@ -67,8 +63,7 @@ export default async function Process7() {
       <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
         <div className="row mb-5">
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
-
-            <h2 className="display-4 mb-4 px-lg-14">Kto może wziąć udział w projekcie?</h2>
+            {/* <h2 className="display-4 mb-4 px-lg-14">Kto może wziąć udział w projekcie?</h2> */}
           </div>
         </div>
 
@@ -80,25 +75,20 @@ export default async function Process7() {
           </div>
 
           <div className="col-lg-6">
-            <h2 className="display-6 mb-3">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE?</h2>
-            <p className="lead fs-lg pe-lg-5">
-
-            </p>
-
+            <h2 className="display-6 mb-3">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE? Kobiety:</h2>
+            <p className="lead fs-lg pe-lg-5"></p>
             <p>
-              Do wzięcia udziału w projekcie zapraszamy wszystkich chętnych spełniających wyżej
-              wymienione kryteria, a w szczególności zapraszamy kobiety powracające na rynek
-              pracy po przerwie związanej z koniecznością opieki nad dzieckiem lub osobą
-              zależną.
+              Do wzięcia udziału w projekcie zapraszamy wszystkie chętne osoby spełniające
+              wyżej wymienione kryteria, a w szczególności zapraszamy kobiety zamieszkujące
+              obszary wiejskie na terenie województwa świętokrzyskiego oraz posiadające
+              orzeczenie o stopniu niepełnosprawności.
             </p>
           </div>
         </div>
       </div>
       <div className="container pt-10 pt-md-10 pb-13 pb-md-15">
-
         <div className="row mb-5">
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
-
             <h2 className="display-4 mb-4 px-lg-14">Jak zgłosić się do projektu?</h2>
             <p>Jeśli spełniasz warunki udziału w projekcie to: </p>
             <div className="col-lg-12 order-lg-2">
@@ -110,14 +100,17 @@ export default async function Process7() {
                         <span className="number">1</span>
                       </span>
                     </div>
-
                     <div>
                       <h4 className="mb-1 text-start">Wydrukuj dokumenty rekrutacyjne i wypełnij je</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
                 </div>
-
+              </div>
+              <div className="text-center mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                </svg>
               </div>
               <div className="shadow-lg mt-10">
                 <div className="card-body p-6">
@@ -127,7 +120,6 @@ export default async function Process7() {
                         <span className="number">2</span>
                       </span>
                     </div>
-
                     <div>
                       <h4 className="mb-1 text-start">Wybierz z Zakładu Ubezpieczeń Społecznych lub Powiatowego Urzędu Pracy
                         wymagane zaświadczenie</h4>
@@ -135,7 +127,11 @@ export default async function Process7() {
                     </div>
                   </div>
                 </div>
-
+              </div>
+              <div className="text-center mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                </svg>
               </div>
               <div className="shadow-lg mt-10">
                 <div className="card-body p-6">
@@ -145,14 +141,18 @@ export default async function Process7() {
                         <span className="number">3</span>
                       </span>
                     </div>
-
                     <div>
-                      <h4 className="mb-1 text-start">Zgromadź pozostałe wymagane załączniki</h4>
+                      <h4 className="mb-1 text-start">Wybierz z Zakładu Ubezpieczeń Społecznych lub Powiatowego Urzędu Pracy
+                        wymagane zaświadczenie</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
                 </div>
-
+              </div>
+              <div className="text-center mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                </svg>
               </div>
               <div className="shadow-lg mt-10">
                 <div className="card-body p-6">
@@ -162,16 +162,17 @@ export default async function Process7() {
                         <span className="number">4</span>
                       </span>
                     </div>
-
                     <div>
-                      <h4 className="mb-1 text-start">Złóż komplet dokumentów osobiście lub za pośrednictwem osoby trzeciej do Biura
-                        projektu bądź prześlij je e-mailem/pocztą tradycyjną/kurierem na adres Biura
-                        projektu/email (patrz zakładka <a className="link-primary" href="/kontakt">„Kontakt”</a>) </h4>
+                      <h4 className="mb-1 text-start">Zgromadź pozostałe wymagane załączniki</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
                 </div>
-
+              </div>
+              <div className="text-center mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                </svg>
               </div>
               <div className="shadow-lg mt-10">
                 <div className="card-body p-6">
@@ -181,38 +182,54 @@ export default async function Process7() {
                         <span className="number">5</span>
                       </span>
                     </div>
-
                     <div>
-                      <h4 className="mb-1 text-start">Skontaktujemy się z Tobą telefonicznie lub mailowo, żeby poinformować o
-                        zakwalifikowaniu do projektu. </h4>
+                      <h4 className="mb-1 text-start">Złóż komplet dokumentów osobiście lub za pośrednictwem osoby trzeciej do Biura
+                        projektu bądź prześlij je e-mailem/pocztą tradycyjną/kurierem na adres Biura
+                        projektu/email (patrz zakładka „Kontakt”)</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
                 </div>
-
               </div>
-
+              <div className="text-center mt-4">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                </svg>
+              </div>
+              <div className="shadow-lg mt-10 mb-10">
+                <div className="card-body p-6">
+                  <div className="d-flex flex-row">
+                    <div>
+                      <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+                        <span className="number">6</span>
+                      </span>
+                    </div>
+                    <div>
+                      <h4 className="mb-1 text-start">Skontaktujemy się z Tobą telefonicznie lub mailowo, żeby poinformować o
+                        zakwalifikowaniu do projektu.</h4>
+                      <p className="mb-0"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Reszta kroków */}
             </div>
-
-
           </div>
         </div>
         <p className="text-center mt-5">
           Jeśli potrzebujesz pomocy w wypełnieniu dokumentów rekrutacyjnych zapraszamy
-          do Biura projektu (patrz zakładka  <a className="link-primary" href="/kontakt">„Kontakt”</a>). Ponadto zapewniamy możliwość
-          skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy asystenta
-          osoby z niepełnosprawnością.<br /> Dla osób, które mają problem z dojazdem do Biura
-          projektu (gdyż np. posiadają pod opieką dziecko/dzieci/osoby zależne; osoby z
+          do Biura projektu (patrz zakładka „Kontakt”). Ponadto zapewniamy możliwość
+          skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy asystenta do
+          wypełnienia dokumentacji rekrutacyjnej. Dla osób, które mają problem z dojazdem do
+          Biura projektu (gdyż np. posiadają pod opieką dziecko/dzieci/osoby zależne; osoby z
           niepełnosprawnościami) możliwy jest dojazd do Kandydatów do domu i pomoc kadry
           projektu w wypełnieniu dokumentów rekrutacyjnych.
         </p>
         <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">Biurem projektu.</Link> </p>
       </div>
       <div className="container pt-10 pt-md-10 pb-13 pb-md-15">
-
         <div className="row mb-5">
           <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
-
             <h2 className="display-4 mb-10 px-lg-14">Dokumenty do pobrania</h2>
             <div className="d-flex flex-column align-items-start">
               <p>
@@ -230,8 +247,7 @@ export default async function Process7() {
             </div>
             <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze. Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
 
-
-            {!dataFromStrapi ? (
+            {data.length === 0 ? (
               <p className="text-danger">Nie udało się pobrać dokumentów. Prosimy spróbować później.</p>
             ) : (
               <div className="col-lg-12 order-lg-2">
@@ -246,17 +262,10 @@ export default async function Process7() {
                 ))}
               </div>
             )}
-
-
           </div>
         </div>
         <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">biurem projektu.</Link> </p>
       </div>
-
-
-
     </>
-
-
   );
 }

@@ -1,14 +1,10 @@
 import Image from "next/image";
-import logoUE from '../../../../../public/img/logos/lubelskie_logo-removebg-preview.png'
-// ===================================================================
-
-// ===================================================================
 
 export default function Toplogo() {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
       <Image
-        src="/img/logos/lubelskie_logo-removebg-preview.png"
+        src="/img/logos/swietokrzyskie.png"
         alt="logo"
         sizes="90vw"
         width={1200}

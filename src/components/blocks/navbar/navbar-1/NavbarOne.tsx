@@ -11,7 +11,7 @@ import Link from "next/link";
 // LOCAL CUSTOM COMPONENTS
 import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
-import JPLogo from "../../../../../public/img/logos/Jp_logo_witout_background_small_size.png";
+import crselogo from "../../../../../public/img/logos/crselogo.png";
 import Toplogo from "../top-logo/Toplogo";
 
 // ===================================================================
@@ -59,14 +59,14 @@ export default function NavbarOne({
       <div className="navbar-brand w-100">
         <Link href="/" >
           <Image
-            src={JPLogo}
+            src={crselogo}
 
             alt="logo firmy JP"
 
             style={{
               width: '100%',
               height: 'auto',
-              maxWidth: '150px',
+              maxWidth: '100px',
             }}
           />
         </Link>

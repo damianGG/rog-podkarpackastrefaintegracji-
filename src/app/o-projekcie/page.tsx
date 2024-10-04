@@ -43,26 +43,27 @@ export default function News() {
             </section>
             <div className="container mb-15 mt-15" >
                 <div className=" mt-4 mb-15">
-                    <p>Wartość projektu: <span className="fw-bold">726 306,48 zł</span> </p>
-                    <p>Wysokość wkładu Funduszy Europejskich:<span className="fw-bold"> 617 360,50 zł</span></p>
+                    <p>Wartość projektu: <span className="fw-bold">1 975 534,61 zł</span> </p>
+                    <p>Wysokość wkładu Funduszy Europejskich:<span className="fw-bold"> 1 679 204,41 zł</span></p>
                     <p className="mb-3 fw-bold lead fs-lg">
-                        Głównym celem projektu jest kompleksowa aktywizacja zawodowa 58 osób (53
-                        kobiet i 5 mężczyzn) pozostających bez pracy (bezrobotnych i biernych zawodowo),
-                        powyżej 18 roku życia, zamieszkałych na obszarze woj. lubelskiego w rozumieniu
-                        KC, ukierunkowana na wsparcie zrównoważonego udziału w rynku pracy, zwłaszcza
-                        kobiet poprzez m.in. wsparcie doradcze, psychologiczne, szkoleniowe, stażowe, co
-                        przyczyni się do zwiększenia możliwości ich zatrudnienia i poprawę ich pozycji na
-
-                        rynku pracy (zwłaszcza kobiet i osób znajdujących się w trudnej sytuacji na rynku
-                        pracy z powodu trudności godzenia życia zawodowego z obowiązkami rodzinnymi/
-                        opiekuńczymi) w okresie realizacji projektu tj. od 01.07.2024 r. do 30.06.2025 r. Co
-                        najmniej 65% grupy mają stanowić kobiety powracające na rynek pracy.
+                        Głównym celem projektu jest wsparcie i aktywizacja 168 kobiet sprawujących opiekę
+                        nad dzieckiem do lat 7 oraz osobami potrzebującymi wsparcia w codziennym
+                        funkcjonowaniu, powracających na rynek po zakończonym okresie sprawowania
+                        opieki, zamieszkujących w rozumieniu Kodeksu Cywilnego na obszarze woj.
+                        świętokrzyskiego, w tym w szczególności obszary wiejskie, w okresie realizacji proj.
+                        tj. 1.09.2024 r. – 31.12.2025 r., co przyczyni się do zwiększenia możliwości ich
+                        zatrudnienia i poprawę ich pozycji na rynku pracy.
                         <br />
-                        Dzięki udziałowi w projekcie Uczestnicy uzyskają kwalifikacje zawodowe, podniosą
-                        poziom wiedzy w zakresie równości kobiet i mężczyzn, poprawią swoją sytuację na
-                        rynku pracy np. poprzez podjęcie kształcenia/szkolenia, podjęcie pracy, założenie
-                        własnej działalności gospodarczej lub w przypadku osób biernych zawodowo
-                        rozpoczęcie poszukiwania pracy.
+                        Co najmniej 60% Uczestniczek projektu tj. 101 kobiet będzie zamieszkiwało obszary
+                        wiejskie województwa świętokrzyskiego - obszar wiejski należy rozumieć jako obszar
+                        słabo zaludniony zgodnie ze stopniem urbanizacji (DEGURBA kategoria 3). Założono
+                        również, iż co najmniej 10% Uczestniczek tj. 17 os. będą stanowiły osoby z
+                        niepełnosprawnością.
+                        <br />
+                        Dzięki udziałowi w projekcie Uczestniczki uzyskają kwalifikacje lub kompetencje
+                        zawodowe oraz podniosą poziom wiedzy w zakresie równości kobiet i mężczyzn.
+                        Poprawią również swoją sytuację na rynku pracy np. poprzez podjęcie pracy,
+                        założenie własnej działalności gospodarczej.
                     </p>
                 </div>
 
@@ -92,10 +93,8 @@ export default function News() {
                         <p className="display-6 mb-3">Udział w projekcie obejmuje:</p>
 
                         <p className="lead fs-lg">
-                            Wsparcie doradcze – identyfikację potrzeb Uczestnika/czki projektu, w tym
-                            m.in. poprzez diagnozowanie potrzeb szkoleniowych lub walidacyjnych,
-                            możliwości doskonalenia zawodowego oraz opracowanie/aktualizację dla
-                            każdego/j Uczestnika/czki projektu Indywidualnego Planu Działania (IPD)
+                            Identyfikacja potrzeb Uczestników projektu (w tym
+                            opracowanie/aktualizacja IPD)
                         </p>
 
                         <div className="row gy-3 gx-xl-8">
@@ -103,24 +102,35 @@ export default function News() {
                                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                     <li>
                                         <i className="uil uil-check" />
-                                        Celem wsparcia jest identyfikacja potrzeb Uczestników/czek projektu, w tym
-                                        m.in. poprzez diagnozowanie potrzeb szkoleniowych, możliwości
-                                        doskonalenia zawodowego oraz poprzez opracowanie dla każdego/j
-                                        Uczestnika/czki projektu Indywidualnego Planu Działania (IPD).
+                                        Celem wsparcia jest identyfikacja potrzeb Uczestniczek projektu, w tym m.in.
+                                        poprzez diagnozowanie potrzeb szkoleniowych lub walidacyjnych
+                                        (potwierdzanie nabytych wcześniej kwalifikacji i kompetencji), możliwości
+                                        doskonalenia zawodowego oraz opracowaniem lub aktualizacją
+                                        Indywidualnego Planu Działania (IPD) dla każdej Uczestniczki projektu.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Dzięki opracowaniu IPD każdy/a z Uczestników/czek projektu otrzyma ofertę
-                                        wsparcia, obejmującą takie formy pomocy, które zostaną zidentyfikowane u
-                                        niej jako najbardziej przydatne i pomocne w znalezieniu zatrudnienia.
+                                        Wsparcie udzielone w ramach projektu będzie dostosowane do
+                                        indywidualnych potrzeb uczestniczek projektu, wynikających z ich wiedzy,
+                                        umiejętności i kompetencji oraz kwalifikacji do wykonywania danego zawodu.
+                                        Każdy z uczestników projektu otrzyma ofertę wsparcia, obejmującą takie
+                                        formy pomocy, które zostaną zidentyfikowane u niego jako niezbędne w celu
+                                        poprawy sytuacji na rynku pracy lub uzyskania zatrudnienia.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Każdy/a Uczestnik/czka projektu otrzyma śr. 3 godz. zegarowe
-                                        indywidualnego wsparcia.
+                                        Każda Uczestniczka projektu otrzyma śr. 3 godz. zegarowe indywidualnego
+                                        wsparcia.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />Wsparciem zostanie objętych 58 Uczestników/czek.
+                                        <i className="uil uil-check" />
+                                        Każda osoba w wieku 15–29 lat należąca do kategorii NEET rozpoczynająca
+                                        udział w projekcie przejdzie ocenę umiejętności cyfrowych oraz – w razie
+                                        potrzeby – nastąpi uzupełnienie poziomu kompetencji.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Wsparciem zostanie objętych 168 Uczestniczek.
                                     </li>
 
                                 </ul>
@@ -154,20 +164,23 @@ export default function News() {
                         <h2 className="display-4 mb-3"></h2>
 
                         <p className="lead fs-lg">
-                            Wsparcie psychologiczne
+                            Poradnictwo indywidualne z zakresu doradztwa zawodowego i
+                            pośrednictwa pracy
                         </p>
 
                         <div className="row gy-3 gx-xl-8">
                             <div className="col-xl-12">
                                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                     <li>
-                                        <i className="uil uil-check" /> Celem wsparcia jest pomoc w zaplanowaniu ścieżki rozwoju kwalifikacji
-                                        zawodowych Uczestnika/czki projektu, wzrost jego/jej samooceny
-                                        i wzmocnienie jego/jej motywacji do poszukiwania pracy na regionalnym rynku
-                                        pracy.
+                                        <i className="uil uil-check" />
+                                        Poradnictwo indywidualne z zakresu doradztwa pomoże Uczestniczce w
+                                        rozwiązaniu problemu zawodowego, pozwoli zdiagnozować obszary
+                                        wymagające dodatkowego wzmocnienia i wesprze w planowaniu ścieżki
+                                        zawodowej, przygotuje do radzenia sobie w środowisku pracy.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" /> Psycholog szczegółowo przeanalizuje sytuację osoby objętej wsparciem,
+                                        <i className="uil uil-check" />
+                                        Psycholog szczegółowo przeanalizuje sytuację osoby objętej wsparciem,
                                         wskazując, co należy zrobić w sferze poprawy jego/jej obecnej sytuacji
                                         zawodowej i jej zmiany na lepszą. Będzie akcentował w sposób szczególny
                                         zasadę równości kobiet i mężczyzn, aby zarówno kobiety, jak i mężczyźni
@@ -177,11 +190,50 @@ export default function News() {
                                         kobiety, jak i mężczyźni mogli spełniać się zawodowo.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />Każdy/a Uczestnik/czka projektu otrzyma śr. 2 godz. zegarowe
-                                        indywidualnego wsparcia.
+                                        <i className="uil uil-check" />
+                                        Tematyka wsparcia będzie ściśle dostosowana do potrzeb UP.
                                     </li>
                                     <li className="mt-3">
-                                        <i className="uil uil-check" />Wsparciem zostanie objętych 58 Uczestników/czek.
+                                        <i className="uil uil-check" />
+                                        Każda Uczestniczka projektu otrzyma śr. 2 godz. zegarowe indywidualnego
+                                        wsparcia.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Wsparciem z poradnictwa indywidualnego z zakresu doradztwa zawodowego
+                                        zostaną objęte 84 Uczestniczki.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Pośrednictwo pracy będzie bazowało na IPD i będzie wspierało Uczestniczkę
+                                        w dojściu do zatrudnienia.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Pośrednictwo pracy będzie usługą polegającą na pozyskaniu ofert pracy
+                                        zgodnych z oczekiwaniami, predyspozycjami i kwalifikacjami Uczestniczki, a
+                                        także możliwościami lokalnego/regionalnego rynku pracy, co da szansę na
+                                        uzyskanie w krótkim czasie zatrudnienia.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Pośrednictwo pracy nie tylko umożliwi Uczestniczce podjęcie zatrudnienia,
+                                        ale również wyposaży w umiejętność sprawnego poruszania się po rynku
+                                        pracy i samodzielnego poszukiwania pracy.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Każda Uczestniczka otrzyma propozycję co najmniej 3 ofert pracy od
+                                        pośrednika pracy w ramach realizowanego wsparcia.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Każda Uczestniczka projektu otrzyma śr. 3 godz. zegarowe indywidualnego
+                                        wsparcia.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Wsparciem z pośrednictwa pracy zostaną objęte 84 Uczestniczki.
                                     </li>
                                 </ul>
                             </div>
@@ -214,7 +266,7 @@ export default function News() {
                         <h2 className="display-4 mb-3"></h2>
 
                         <p className="lead fs-lg">
-                            Wsparcie szkoleniowe - szkolenia zgodne z IPD
+                            Indywidualne poradnictwo psychologiczne
                         </p>
 
                         <div className="row gy-3 gx-xl-8">
@@ -223,50 +275,25 @@ export default function News() {
 
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Celem szkolenia jest zdobycie przez Uczestnika/czkę kwalifikacji
-                                        zawodowych, co polepszy jego/jej sytuację na rynku pracy oraz zwiększy
-                                        możliwość zatrudnienia.
+                                        Celem spotkań będzie wzmacnianie potrzeby zmiany u Uczestniczek
+                                        projektu.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Szkolenia oferowane Uczestnikom/czkom projektu będą zgodne ze
-                                        zdiagnozowanymi potrzebami i potencjałem Uczestnika/czki projektu
-                                        (określonymi w Indywidualnym Planie Działania tworzonym dla każdego
-                                        osoby), a także będą uwzględniały rzeczywiste potrzeby na określone
-                                        kwalifikacje i umiejętności na regionalnym lub lokalnym rynku pracy, zgodnie z
-                                        publikacją Barometr zawodów województwa lubelskiego.
+                                        Uczestniczka projektu wraz z psychologiem skupią się na indywidualnej
+                                        sytuacji społecznej i zawodowej. Poradnictwo psychologiczne przyczyni się do
+                                        rozwiązania ich bieżących problemów i specyficznych trudności związanych z
+                                        sytuacją życiową i podejmowaniem próby zmiany.
 
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Średnia liczba godzin kursu wyniesie 120 godzin szkoleniowych.
+                                        Każda Uczestniczka projektu otrzyma śr. 3 godz. zegarowe indywidualnego
+                                        wsparcia.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Nabycie kwalifikacji będzie weryfikowane poprzez przeprowadzenie egzaminu
-                                        zewnętrznego przez uprawnioną instytucję.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
-                                        W czasie realizacji szkolenia zawodowego Uczestnikom/czkom projektu
-                                        przysługuje stypendium szkoleniowe, którego wysokość miesięcznie wyniesie
-                                        120% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ustawy o promocji
-                                        zatrudnienia i instytucjach rynku pracy (obowiązującego w roku złożenia przez
-                                        Beneficjenta wniosku o dofinansowanie w odpowiedzi na ogłoszony konkurs),
-                                        jeżeli miesięczny wymiar godzin szkolenia wynosi co najmniej 150 godzin
-                                        zegarowych; w przypadku niższego miesięcznego wymiaru godzin szkolenia,
-                                        wysokość stypendium szkoleniowego ustala się proporcjonalnie, z tym, że
-                                        stypendium to nie może być niższe niż 20% zasiłku, o którym mowa w art. 72
-                                        ust. 1 pkt 1 ustawy o promocji zatrudnienia i instytucjach rynku pracy.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
-                                        W ramach wsparcia Uczestnik/czka może ubiegać się o zwrot kosztów
-                                        dojazdu.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
-                                        Wsparciem zostanie objętych 58 Uczestników/czek.
+                                        Wsparciem zostaną objęte 84 Uczestniczki.
                                     </li>
                                 </ul>
                             </div>
@@ -299,9 +326,7 @@ export default function News() {
                         <h2 className="display-4 mb-3"></h2>
 
                         <p className="lead fs-lg">
-                            Staże zawodowe służące nabywaniu lub uzupełnianiu doświadczenia
-                            zawodowego oraz praktycznych umiejętności w zakresie wykonywania
-                            danego zawodu
+                            Szkolenie z zakresu wizerunku biznesowego
                         </p>
 
                         <div className="row gy-3 gx-xl-8">
@@ -309,55 +334,128 @@ export default function News() {
                                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                     <li>
                                         <i className="uil uil-check" />
-                                        Celem staży jest polepszenie umiejętności praktycznych przez
-                                        Uczestników/czki projektu oraz zdobycie doświadczenia zawodowego na
-                                        stanowisku związanym z tematyką odbytego szkolenia. Staże będą
-                                        realizowane w zawodach zgodnych z nowymi kwalifikacjami, które nabędą
-                                        Uczestnicy/czki projektu w trakcie kursów/szkoleń.
+                                        Udział Uczestniczek w tego typu szkoleniu wzmocni poczucie własnej
+                                        wartości i wpłynie pozytywnie na rozwój osobisty.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Na staż zostaną skierowane osoby, które będą zainteresowane tego typu
-                                        wsparciem, a ponadto będzie to wynikało również z ich IPD.
+                                        Dzięki szkoleniu Uczestniczki nauczą się budowania właściwego wizerunku
+                                        siebie i firmy, w której będą pracowały, zwiększą swoją pewność siebie, będą
+                                        umiały dobrać strój stosownie do sytuacji i stanowiska pracy, poznają zasady
+                                        biznesowego dress code’u, a także zasad etyki i prezentacji w biznesie.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Czas pracy Uczestnika/czki odbywającego/j staż będzie trwał 8 godzin na
-                                        dobę (40 godzin tygodniowo), w przypadku osoby z niepełnosprawnością (w
-                                        stopniu znacznym lub umiarkowanym) 7 godzin na dobę (35 godzin
-                                        tygodniowo), każdorazowo przez okres 3 miesięcy.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />Staże odbywać się będą w firmach zlokalizowanych możliwie najbliżej miejsc
-                                        zamieszkania Uczestników/czek projektu, na stanowiskach w zakresie jakich
-                                        Uczestnik/czka projektu zdobył/a kwalifikacje, zgodnie z ustalonym
-                                        programem stażu.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
-                                        Uczestnikom/czkom projektu w ramach stażu zostaną zapewnione badania
-                                        lekarskie, polisa ubezpieczeniowa NNW oraz stypendium stażowe, którego
-                                        wysokość miesięcznie wyniesie 120% zasiłku dla bezrobotnych, zgodnie
-                                        z obowiązującymi, w roku złożenia przez beneficjenta wniosku
-                                        o dofinansowanie w odpowiedzi na ogłoszony konkurs stawkami w tym
-                                        zakresie (psz.praca.gov.pl), jeżeli liczba godzin stażu w miesiącu
-                                        kalendarzowym wyniesie nie mniej niż 160 godzin miesięcznie. W przypadku
-                                        niższego miesięcznego wymiaru godzin, wysokość stypendium ustala się
-                                        proporcjonalnie.
+                                        W czasie realizacji szkolenia Uczestniczkom projektu przysługuje stypendium
+                                        szkoleniowe. Stypendium szkoleniowe w pełnej wysokości tj. 120 % zasiłku, o
+                                        którym mowa w art. 72 ust. 1 pkt 1 Ustawy o promocji zatrudnienia i
+                                        instytucjach rynku pracy należy się uczestnikom, jeżeli miesięczny wymiar
+                                        godzin szkolenia wynosi co najmniej 150 godzin. W przypadku mniejszej
+                                        miesięcznej liczby godzin szkolenia, wysokość stypendium szkoleniowego
+                                        ustala się proporcjonalnie, z tym, że stypendium to nie może być niższe niż
+                                        20% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ww. ustawy.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Każdy/a stażysta/tka będzie zdobywał doświadczenie pod opieką Opiekuna
-                                        stażysty.
+                                        W ramach wsparcia Uczestniczka może ubiegać się o zwrot kosztów dojazdu
+                                        oraz o zwrot kosztów opieki nad dzieckiem/osobą zależną.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        W ramach wsparcia Uczestnicy/czki projektu mogą ubiegać się o zwrot
-                                        kosztów dojazdu.
+                                        Wsparciem zostanie objętych 168 Uczestniczek.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
+                    <div className="col-lg-6 position-relative order-lg-1">
+
+                        <div className="overlap-grid overlap-grid-2">
+                            <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
+                            <div>
+                                <figure className="rounded shadow">
+                                    <Image
+                                        src="/img/photos/ludzie.jpg"
+                                        width={600}
+                                        height={1000}
+                                        alt="hero"
+                                    />
+                                </figure>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6">
+
+
+                        <h2 className="display-4 mb-3"></h2>
+
+                        <p className="lead fs-lg">
+                            Kursy/szkolenia podnoszące kwalifikacje/umiejętności zawodowe
+                        </p>
+
+                        <div className="row gy-3 gx-xl-8">
+                            <div className="col-xl-12">
+                                <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
+
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Celem szkolenia jest zdobycie przez Uczestniczkę kwalifikacji/kompetencji
+                                        zawodowych, co polepszy jej sytuację na rynku pracy oraz zwiększy
+                                        możliwość zatrudnienia.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Wsparcie w postaci stażu kierowane będzie do 18 Uczestników/czek.
+                                        Szkolenia oferowane Uczestniczkom projektu będą zgodne ze
+                                        zdiagnozowanymi potrzebami i potencjałem Uczestniczki projektu
+                                        (określonymi w Indywidualnym Planie Działania tworzonym dla każdej osoby),
+                                        a także będą uwzględniały rzeczywiste potrzeby na określone kwalifikacje i
+                                        umiejętności na regionalnym lub lokalnym rynku pracy.
+
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Każde ze szkoleń będzie obejmowało moduł dotyczący równości szans kobiet
+                                        i mężczyzn, ze szczególnym uwzględnieniem praw kobiet, m.in. na rynku
+                                        pracy.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Średnia liczba godzin kursu wyniesie 88 godzin szkoleniowych.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Uzyskanie kwalifikacji lub nabycie kompetencji będzie każdorazowo
+                                        zweryfikowane poprzez przeprowadzenie odpowiedniego sprawdzenia
+                                        przyswojonej wiedzy, umiejętności i kompetencji społecznych lub zawodowych
+                                        (w formie egzaminu).
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        W czasie realizacji szkolenia zawodowego Uczestniczkom projektu
+                                        przysługuje stypendium szkoleniowe, którego wysokość miesięcznie wyniesie
+                                        120% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ustawy o promocji
+                                        zatrudnienia i instytucjach rynku pracy (obowiązującego w roku złożenia przez
+                                        Beneficjenta wniosku o dofinansowanie w odpowiedzi na ogłoszony konkurs),
+                                        <br />
+                                        jeżeli miesięczny wymiar godzin szkolenia wynosi co najmniej 150 godzin
+                                        zegarowych; w przypadku niższego miesięcznego wymiaru godzin szkolenia,
+                                        wysokość stypendium szkoleniowego ustala się proporcjonalnie, z tym, że
+                                        stypendium to nie może być niższe niż 20% zasiłku, o którym mowa w art. 72
+                                        ust. 1 pkt 1 ustawy o promocji zatrudnienia i instytucjach rynku pracy.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        W ramach wsparcia Uczestniczka może ubiegać się o zwrot kosztów dojazdu
+                                        oraz o zwrot kosztów opieki nad dzieckiem/osobą zależną.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Wsparciem zostanie objętych 168 Uczestniczek.
                                     </li>
                                 </ul>
                             </div>
