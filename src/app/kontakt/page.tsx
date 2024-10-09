@@ -66,7 +66,7 @@ export default function Kontakt() {
                 </div>
                 <div className="row mt-10">
                     <div className="col text-center">
-                        <h2>Siedziba Centrum Rozwoju Społeczno-Ekonomicznego - Lider</h2>
+                        <h2>Siedziba Centrum Rozwoju Społeczno-Ekonomicznego - Beneficjent</h2>
                         <p><strong>Adres: </strong> Sielec 1A, 39-120 Sędziszów Małopolski</p>
                         <p><strong>Strona: </strong><Link href="https://crse.org.pl" className="link-primary" target="_blank">www.crse.org.pl</Link></p>
                         <p><strong>Tel: </strong> 17 22 21 575</p>
@@ -79,7 +79,7 @@ export default function Kontakt() {
                         <h2>Siedziba Fundacja EFEKT MOTYLA - Partner</h2>
                         <p><strong>Adres: </strong> Plac Niepodległości 1 lok. 3.19, 25-506 Kielce</p>
                         <p><strong>Strona: </strong><Link href="https://fundacjaefektmotyla.pl" className="link-primary" target="_blank">www.fundacjaefektmotyla.pl</Link></p>
-                        <p><strong>Tel: </strong> +48 48 533 535 008</p>
+                        <p><strong>Tel: </strong> +48 533 535 008</p>
                         <p><strong>E-mail: </strong><a href="mailto:biuro@fundacjaefektmotyla.pl" className="link-primary" target="_blank">biuro@fundacjaefektmotyla.pl</a> </p>
                     </div>
 

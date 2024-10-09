@@ -102,6 +102,10 @@ export default function News() {
                                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                     <li>
                                         <i className="uil uil-check" />
+                                        Udzielenie wsparcia w ramach projektu zostanie poprzedzone identyfikacją potrzeb Uczestniczek projektu oraz diagnozowaniem możliwości w zakresie doskonalenia zawodowego poprzez obligatoryjne opracowanie Indywidualnego Planu Działania (IPD) dla każdej Uczestniczki projektu. W ramach wsparcia nastąpi opracowanie IPD, aktualizacja oraz podsumowanie. Indywidualny Plan Działania będzie określał zakres wsparcia udzielanego danej osobie, który jest z nią uzgodniony.
+                                    </li>
+                                    <li>
+                                        <i className="uil uil-check" />
                                         Celem wsparcia jest identyfikacja potrzeb Uczestniczek projektu, w tym m.in.
                                         poprzez diagnozowanie potrzeb szkoleniowych lub walidacyjnych
                                         (potwierdzanie nabytych wcześniej kwalifikacji i kompetencji), możliwości
@@ -111,10 +115,10 @@ export default function News() {
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
                                         Wsparcie udzielone w ramach projektu będzie dostosowane do
-                                        indywidualnych potrzeb uczestniczek projektu, wynikających z ich wiedzy,
+                                        indywidualnych potrzeb Uczestniczek projektu, wynikających z ich wiedzy,
                                         umiejętności i kompetencji oraz kwalifikacji do wykonywania danego zawodu.
-                                        Każdy z uczestników projektu otrzyma ofertę wsparcia, obejmującą takie
-                                        formy pomocy, które zostaną zidentyfikowane u niego jako niezbędne w celu
+                                        Każda z uczestniczek projektu otrzyma ofertę wsparcia, obejmującą takie
+                                        formy pomocy, które zostaną zidentyfikowane u niej jako niezbędne w celu
                                         poprawy sytuacji na rynku pracy lub uzyskania zatrudnienia.
                                     </li>
                                     <li className="mt-3">
@@ -130,7 +134,7 @@ export default function News() {
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Wsparciem zostanie objętych 168 Uczestniczek.
+                                        Wsparciem z pośrednictwa pracy zostanie objętych 168 Uczestniczek.
                                     </li>
 
                                 </ul>
@@ -177,17 +181,6 @@ export default function News() {
                                         rozwiązaniu problemu zawodowego, pozwoli zdiagnozować obszary
                                         wymagające dodatkowego wzmocnienia i wesprze w planowaniu ścieżki
                                         zawodowej, przygotuje do radzenia sobie w środowisku pracy.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
-                                        Psycholog szczegółowo przeanalizuje sytuację osoby objętej wsparciem,
-                                        wskazując, co należy zrobić w sferze poprawy jego/jej obecnej sytuacji
-                                        zawodowej i jej zmiany na lepszą. Będzie akcentował w sposób szczególny
-                                        zasadę równości kobiet i mężczyzn, aby zarówno kobiety, jak i mężczyźni
-                                        zdali sobie sprawę z tego, iż mają prawo do takiego samego startu na rynku
-                                        pracy, takich samych wynagrodzeń na równorzędnych stanowiskach, mogą
-                                        dzielić role wychowawcze pomiędzy obydwoje rodziców, tak by zarówno
-                                        kobiety, jak i mężczyźni mogli spełniać się zawodowo.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
@@ -346,14 +339,7 @@ export default function News() {
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        W czasie realizacji szkolenia Uczestniczkom projektu przysługuje stypendium
-                                        szkoleniowe. Stypendium szkoleniowe w pełnej wysokości tj. 120 % zasiłku, o
-                                        którym mowa w art. 72 ust. 1 pkt 1 Ustawy o promocji zatrudnienia i
-                                        instytucjach rynku pracy należy się uczestnikom, jeżeli miesięczny wymiar
-                                        godzin szkolenia wynosi co najmniej 150 godzin. W przypadku mniejszej
-                                        miesięcznej liczby godzin szkolenia, wysokość stypendium szkoleniowego
-                                        ustala się proporcjonalnie, z tym, że stypendium to nie może być niższe niż
-                                        20% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ww. ustawy.
+                                        W czasie realizacji szkolenia Uczestniczkom projektu przysługuje stypendium szkoleniowe, które w pełnej wysokości tj. 120 % zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 Ustawy o promocji zatrudnienia i instytucjach rynku pracy należy się Uczestniczkom, jeżeli miesięczny wymiar godzin szkolenia wynosi co najmniej 150 godzin. W przypadku mniejszej miesięcznej liczby godzin szkolenia, wysokość stypendium szkoleniowego ustala się proporcjonalnie, z tym, że stypendium to nie może być niższe niż 20% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ww. ustawy.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
@@ -410,11 +396,8 @@ export default function News() {
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Szkolenia oferowane Uczestniczkom projektu będą zgodne ze
-                                        zdiagnozowanymi potrzebami i potencjałem Uczestniczki projektu
-                                        (określonymi w Indywidualnym Planie Działania tworzonym dla każdej osoby),
-                                        a także będą uwzględniały rzeczywiste potrzeby na określone kwalifikacje i
-                                        umiejętności na regionalnym lub lokalnym rynku pracy.
+                                        Szkolenia oferowane Uczestniczkom projektu będą zgodne ze zdiagnozowanymi potrzebami i potencjałem Uczestniczki projektu (określonymi w Indywidualnym Planie Działania tworzonym dla każdej osoby), a także będą uwzględniały rzeczywiste potrzeby na określone kwalifikacje i umiejętności na regionalnym/lokalnym rynku pracy.
+
 
                                     </li>
                                     <li className="mt-3">
@@ -433,6 +416,10 @@ export default function News() {
                                         zweryfikowane poprzez przeprowadzenie odpowiedniego sprawdzenia
                                         przyswojonej wiedzy, umiejętności i kompetencji społecznych lub zawodowych
                                         (w formie egzaminu).
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        W czasie realizacji szkolenia zawodowego Uczestniczkom projektu przysługuje stypendium szkoleniowe, które w pełnej wysokości tj. 120% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 Ustawy o promocji zatrudnienia i instytucjach rynku pracy należy się Uczestniczkom, jeżeli miesięczny wymiar godzin szkolenia wynosi co najmniej 150 godzin. W przypadku mniejszej miesięcznej liczby godzin szkolenia, wysokość stypendium szkoleniowego ustala się proporcjonalnie, z tym, że stypendium to nie może być niższe niż 20% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ww. ustawy.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
