@@ -29,8 +29,8 @@ async function getStrapiData() {
 }
 
 export const metadata: Metadata = {
-    title: 'Aktualności o projekcie Kobieta-Aktywność-Sukces',
-    description: 'Aktualności o projekcie Kobieta-Aktywność-Sukces w Radomiu i gminie Wieniawa',
+    title: 'Aktualności o projekcie ',
+    description: 'Aktualności o projekcie ',
 };
 
 function createSlug(text: string): string {
