@@ -105,7 +105,7 @@ export default async function Process7() {
               </div>
               <div className="text-center mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                  <path fillRule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
                 </svg>
               </div>
               <div className="shadow-lg mt-10">
@@ -126,7 +126,7 @@ export default async function Process7() {
               </div>
               <div className="text-center mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                  <path fillRule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
                 </svg>
               </div>
               <div className="shadow-lg mt-10">
@@ -146,7 +146,7 @@ export default async function Process7() {
               </div>
               <div className="text-center mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                  <path fillRule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
                 </svg>
               </div>
               <div className="shadow-lg mt-10">
@@ -168,7 +168,7 @@ export default async function Process7() {
               </div>
               <div className="text-center mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-arrow-down" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                  <path fillRule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
                 </svg>
               </div>
               <div className="shadow-lg mt-10 mb-10">
@@ -221,20 +221,27 @@ export default async function Process7() {
               </p>
             </div>
             <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze. Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
-
+            {/* Sprawdź, czy dane są puste */}
             {data.length === 0 ? (
               <p className="text-danger">Nie udało się pobrać dokumentów. Prosimy spróbować później.</p>
             ) : (
               <div className="col-lg-12 order-lg-2">
-                {data.map((item: any) => (
-                  <DownloadList
-                    key={item.id}
-                    title={item.attributes.tytul}
-                    link1={item.attributes.kolorowy?.data?.[0]?.attributes?.url || ''}
-                    link2={item.attributes.czarnobialy?.data?.[0].attributes?.url || ''}
-                    className="mb-5"
-                  />
-                ))}
+                {/* Iteruj po dokumentach */}
+                {data.map((item: any) => {
+                  const kolorowyUrl = item.attributes.kolorowy?.data?.[0]?.attributes?.url || '';
+                  const czarnobialyUrl = item.attributes.czarnobialy?.data?.attributes?.url || '';
+
+                  // Sprawdź liczbę dostępnych plików i wyświetl odpowiednie przyciski
+                  return (
+                    <DownloadList
+                      key={item.id}
+                      title={item.attributes.tytul}
+                      link1={kolorowyUrl}
+                      link2={czarnobialyUrl}
+                      className="mb-5"
+                    />
+                  );
+                })}
               </div>
             )}
           </div>
