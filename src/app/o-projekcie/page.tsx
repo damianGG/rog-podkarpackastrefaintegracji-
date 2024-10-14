@@ -302,7 +302,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/dietetyk.webp"
+                                        src="/img/photos/intreview.jpg"
                                         width={600}
                                         height={1000}
                                         alt="hero"

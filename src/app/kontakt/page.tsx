@@ -70,8 +70,8 @@ export default function Kontakt() {
                         <Image
                             src="/img/logos/crselogo.png"
                             alt="Picture of the author"
-                            width={100}
-                            height={100}
+                            width={65}
+                            height={65}
                         />
                         <h2>Siedziba Centrum Rozwoju Społeczno-Ekonomicznego - Beneficjent</h2>
                         <p><strong>Adres: </strong> Sielec 1A, 39-120 Sędziszów Małopolski</p>
@@ -87,8 +87,8 @@ export default function Kontakt() {
                         <Image
                             src="/img/logos/EFEKTMOTYLALOGO.png"
                             alt="Picture of the author"
-                            width={100}
-                            height={100}
+                            width={65}
+                            height={65}
                         />
                         <h2>Siedziba Fundacja EFEKT MOTYLA - Partner</h2>
                         <p><strong>Adres: </strong> Plac Niepodległości 1 lok. 3.19, 25-506 Kielce</p>

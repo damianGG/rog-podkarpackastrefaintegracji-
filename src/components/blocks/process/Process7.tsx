@@ -76,7 +76,7 @@ export default async function Process7() {
         </div>
         <div className="col-lg-12">
           <p className="lead fs-lg pe-lg-5 mt-10"> Do wzięcia udziału w projekcie zapraszamy wszystkie chętne osoby spełniające
-            wyżej wymienione kryteria, a w szczególności zapraszamy kobiety zamieszkujące
+            wyżej wymienione kryteria, a w szczególności kobiety zamieszkujące
             obszary wiejskie na terenie województwa świętokrzyskiego oraz posiadające
             orzeczenie o stopniu niepełnosprawności.</p>
         </div>

@@ -66,7 +66,7 @@ export default function NavbarOne({
             style={{
               width: '100%',
               height: 'auto',
-              maxWidth: '100px',
+              maxWidth: '65px',
             }}
           />
         </Link>
