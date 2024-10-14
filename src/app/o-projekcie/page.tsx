@@ -43,8 +43,16 @@ export default function News() {
             </section>
             <div className="container mb-15 mt-15" >
                 <div className=" mt-4 mb-15">
-                    <p>Wartość projektu: <span className="fw-bold">1 975 534,61 zł</span> </p>
-                    <p>Wysokość wkładu Funduszy Europejskich:<span className="fw-bold"> 1 679 204,41 zł</span></p>
+                    <p className="mb-3 fw-bold lead fs-lg">
+                        Centrum Rozwoju Społeczno-Ekonomicznego w partnerstwie z Fundacją „Efekt Motyla” realizuje projekt „Czas Kobiet!”.
+                        <br /><br />
+                        Projekt współfinansowany z Europejskiego Funduszu Społecznego Plus (EFS+) w ramach programu regionalnego Fundusze Europejskie dla Świętokrzyskiego 2021-2027, Priorytet FESW.10 Aktywni na rynku pracy, Działanie FESW.10.05 Zrównoważony rynek pracy - nowa „JA”.
+                    </p>
+                    <br />
+                    <p className="mb-3 fw-bold lead fs-lg">Wartość projektu: 1 975 534,61 zł </p>
+                    <p className="mb-3 fw-bold lead fs-lg">Wysokość wkładu Funduszy Europejskich: 1 679 204,41 zł</p>
+                    <br />
+
                     <p className="mb-3 fw-bold lead fs-lg">
                         Głównym celem projektu jest wsparcie i aktywizacja 168 kobiet sprawujących opiekę
                         nad dzieckiem do lat 7 oraz osobami potrzebującymi wsparcia w codziennym
@@ -53,6 +61,7 @@ export default function News() {
                         świętokrzyskiego, w tym w szczególności obszary wiejskie, w okresie realizacji proj.
                         tj. 1.09.2024 r. – 31.12.2025 r., co przyczyni się do zwiększenia możliwości ich
                         zatrudnienia i poprawę ich pozycji na rynku pracy.
+                        <br />
                         <br />
                         Co najmniej 60% Uczestniczek projektu tj. 101 kobiet będzie zamieszkiwało obszary
                         wiejskie województwa świętokrzyskiego - obszar wiejski należy rozumieć jako obszar
@@ -104,14 +113,6 @@ export default function News() {
                                         <i className="uil uil-check" />
                                         Udzielenie wsparcia w ramach projektu zostanie poprzedzone identyfikacją potrzeb Uczestniczek projektu oraz diagnozowaniem możliwości w zakresie doskonalenia zawodowego poprzez obligatoryjne opracowanie Indywidualnego Planu Działania (IPD) dla każdej Uczestniczki projektu. W ramach wsparcia nastąpi opracowanie IPD, aktualizacja oraz podsumowanie. Indywidualny Plan Działania będzie określał zakres wsparcia udzielanego danej osobie, który jest z nią uzgodniony.
                                     </li>
-                                    <li>
-                                        <i className="uil uil-check" />
-                                        Celem wsparcia jest identyfikacja potrzeb Uczestniczek projektu, w tym m.in.
-                                        poprzez diagnozowanie potrzeb szkoleniowych lub walidacyjnych
-                                        (potwierdzanie nabytych wcześniej kwalifikacji i kompetencji), możliwości
-                                        doskonalenia zawodowego oraz opracowaniem lub aktualizacją
-                                        Indywidualnego Planu Działania (IPD) dla każdej Uczestniczki projektu.
-                                    </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
                                         Wsparcie udzielone w ramach projektu będzie dostosowane do
@@ -134,7 +135,7 @@ export default function News() {
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Wsparciem z pośrednictwa pracy zostanie objętych 168 Uczestniczek.
+                                        Wsparciem zostanie objętych 168 Uczestniczek.
                                     </li>
 
                                 </ul>
@@ -226,7 +227,7 @@ export default function News() {
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Wsparciem z pośrednictwa pracy zostaną objęte 84 Uczestniczki.
+                                        Wsparciem z pośrednictwa pracy zostanie objętych 168 Uczestniczek.
                                     </li>
                                 </ul>
                             </div>
@@ -420,20 +421,6 @@ export default function News() {
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
                                         W czasie realizacji szkolenia zawodowego Uczestniczkom projektu przysługuje stypendium szkoleniowe, które w pełnej wysokości tj. 120% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 Ustawy o promocji zatrudnienia i instytucjach rynku pracy należy się Uczestniczkom, jeżeli miesięczny wymiar godzin szkolenia wynosi co najmniej 150 godzin. W przypadku mniejszej miesięcznej liczby godzin szkolenia, wysokość stypendium szkoleniowego ustala się proporcjonalnie, z tym, że stypendium to nie może być niższe niż 20% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ww. ustawy.
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
-                                        W czasie realizacji szkolenia zawodowego Uczestniczkom projektu
-                                        przysługuje stypendium szkoleniowe, którego wysokość miesięcznie wyniesie
-                                        120% zasiłku, o którym mowa w art. 72 ust. 1 pkt 1 ustawy o promocji
-                                        zatrudnienia i instytucjach rynku pracy (obowiązującego w roku złożenia przez
-                                        Beneficjenta wniosku o dofinansowanie w odpowiedzi na ogłoszony konkurs),
-                                        <br />
-                                        jeżeli miesięczny wymiar godzin szkolenia wynosi co najmniej 150 godzin
-                                        zegarowych; w przypadku niższego miesięcznego wymiaru godzin szkolenia,
-                                        wysokość stypendium szkoleniowego ustala się proporcjonalnie, z tym, że
-                                        stypendium to nie może być niższe niż 20% zasiłku, o którym mowa w art. 72
-                                        ust. 1 pkt 1 ustawy o promocji zatrudnienia i instytucjach rynku pracy.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />

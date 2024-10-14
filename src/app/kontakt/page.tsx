@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from 'next'
+import Image from 'next/image'
 export const metadata: Metadata = {
     title: 'Kontakt do projektu „Kobieta * Aktywność * Sukces',
     description: 'Kontakt do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa oraz do biura projektu J&P Moritz Consulting Group Sp. z o. o. w Wrocławiu',
@@ -66,6 +67,12 @@ export default function Kontakt() {
                 </div>
                 <div className="row mt-10">
                     <div className="col text-center">
+                        <Image
+                            src="/img/logos/crselogo.png"
+                            alt="Picture of the author"
+                            width={100}
+                            height={100}
+                        />
                         <h2>Siedziba Centrum Rozwoju Społeczno-Ekonomicznego - Beneficjent</h2>
                         <p><strong>Adres: </strong> Sielec 1A, 39-120 Sędziszów Małopolski</p>
                         <p><strong>Strona: </strong><Link href="https://crse.org.pl" className="link-primary" target="_blank">www.crse.org.pl</Link></p>
@@ -76,9 +83,17 @@ export default function Kontakt() {
                 </div>
                 <div className="row mt-10">
                     <div className="col text-center">
+
+                        <Image
+                            src="/img/logos/EFEKTMOTYLALOGO.png"
+                            alt="Picture of the author"
+                            width={100}
+                            height={100}
+                        />
                         <h2>Siedziba Fundacja EFEKT MOTYLA - Partner</h2>
                         <p><strong>Adres: </strong> Plac Niepodległości 1 lok. 3.19, 25-506 Kielce</p>
                         <p><strong>Strona: </strong><Link href="https://fundacjaefektmotyla.pl" className="link-primary" target="_blank">www.fundacjaefektmotyla.pl</Link></p>
+                        <p><strong>Facebook: </strong><Link href="https://www.facebook.com/fundacjaefektmotyla/" className="link-primary" target="_blank">Fundacja Efekt Motyla</Link></p>
                         <p><strong>Tel: </strong> +48 533 535 008</p>
                         <p><strong>E-mail: </strong><a href="mailto:biuro@fundacjaefektmotyla.pl" className="link-primary" target="_blank">biuro@fundacjaefektmotyla.pl</a> </p>
                     </div>

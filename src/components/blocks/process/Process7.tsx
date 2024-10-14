@@ -62,14 +62,17 @@ export default async function Process7() {
     <>
       <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
         <div className="row mb-5">
-          <div className="col-md-10 col-xl-8 col-xxl-7 mx-auto text-center">
-            <h2 className="display-4 mb-4 px-lg-14">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE? Kobiety:</h2>
+          <div className="col-md-12 col-xl-12 col-xxl-12 mx-auto text-center">
+            <h2 className="display-4 mb-4 px-lg-10">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE? <br></br> Kobiety:</h2>
           </div>
         </div>
-        <div className="col-lg-12 order-lg-2">
+        <div className="col-lg-12 order-lg-2 d-flex">
           {processList1.map((item) => (
             <ProcessList1 {...item} key={item.no} />
           ))}
+
+
+
         </div>
         <div className="col-lg-12">
           <p className="lead fs-lg pe-lg-5 mt-10"> Do wzięcia udziału w projekcie zapraszamy wszystkie chętne osoby spełniające
@@ -160,7 +163,7 @@ export default async function Process7() {
                     <div>
                       <h4 className="mb-1 text-start">Złóż komplet dokumentów osobiście lub za pośrednictwem osoby trzeciej do Biura
                         projektu bądź prześlij je e-mailem/pocztą tradycyjną/kurierem na adres Biura
-                        projektu/email (patrz zakładka „Kontakt”)</h4>
+                        projektu/email (patrz zakładka <a href="/kontakt">„Kontakt”</a> )</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
@@ -193,11 +196,10 @@ export default async function Process7() {
         </div>
         <p className="text-center mt-5">
           Jeśli potrzebujesz pomocy w wypełnieniu dokumentów rekrutacyjnych zapraszamy
-          do Biura projektu (patrz zakładka „Kontakt”). Ponadto zapewniamy możliwość
+          do Biura projektu (patrz zakładka <a href="/kontakt">„Kontakt”</a> ). Ponadto zapewniamy możliwość
           skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy asystenta do
           wypełnienia dokumentacji rekrutacyjnej. Dla osób, które mają problem z dojazdem do
-          Biura projektu (gdyż np. posiadają pod opieką dziecko/dzieci/osoby zależne; osoby z
-          niepełnosprawnościami) możliwy jest dojazd do Kandydatek do domu i pomoc kadry
+          Biura projektu, po wcześniejszym umówwieniu się telefonicznie bądź meilowo, możliwy jest dojazd do Kandydatek do domu i pomoc kadry
           projektu w wypełnieniu dokumentów rekrutacyjnych.
         </p>
 
