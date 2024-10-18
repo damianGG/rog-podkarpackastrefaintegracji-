@@ -35,12 +35,7 @@ export default async function BlogDetailsTemplate({ params }: { params: { slug: 
 
     const photoURL = data.attributes.zdjecie?.data?.attributes?.url;
     const tekstPlikDoPobrania = data.attributes?.TesktPlikDoPobrania || '';
-    const downloadURL = data.attributes.PlikDoPobrania?.data?.[0]?.attributes?.url;
-
-    console.log('downloadURL', downloadURL);
-
-
-
+    const downloadURL = data.attributes.PlikDoPobrania?.data?.attributes?.url;
 
     return (
         <>
