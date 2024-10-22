@@ -46,7 +46,7 @@ export default function News() {
                     <p className="mb-3 fw-bold lead fs-lg">
                         Centrum Rozwoju Społeczno-Ekonomicznego w partnerstwie z Fundacją „Efekt Motyla” realizuje projekt „Czas Kobiet!”.
                         <br /><br />
-                        Projekt współfinansowany z Europejskiego Funduszu Społecznego Plus (EFS+) w ramach programu regionalnego Fundusze Europejskie dla Świętokrzyskiego 2021-2027, Priorytet FESW.10 Aktywni na rynku pracy, Działanie FESW.10.05 Zrównoważony rynek pracy - nowa „JA”.
+                        Projekt współfinansowany z Europejskiego Funduszu Społecznego Plus (EFS+) w ramach programu regionalnego Fundusze Europejskie dla Świętokrzyskiego 2021-2027, Priorytet 10 Aktywni na rynku pracy, Działanie 10.05 Zrównoważony rynek pracy - nowa „JA”.
                     </p>
                     <br />
                     <p className="mb-3 fw-bold lead fs-lg">Wartość projektu: 1 975 534,61 zł </p>
@@ -151,7 +151,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/student.jpg"
+                                        src="/img/photos/shutterstock_2429463807.jpg"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -242,7 +242,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/ludzie.jpg"
+                                        src="/img/photos/shutterstock_2489860569.jpg"
                                         width={600}
                                         height={1000}
                                         alt="hero"

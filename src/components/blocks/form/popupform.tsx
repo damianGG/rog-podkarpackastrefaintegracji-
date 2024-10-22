@@ -1,16 +1,15 @@
 "use client"
 
-import { slideInDownAnimate } from "@/utils/animation";
-import { useState } from "react";
-import ContactForm from "./form";
-
+import { useState } from "react"
+import Image from "next/image"
+import ContactForm from "./form"
+import { slideInDownAnimate } from "@/utils/animation"
 
 export default function PopupForm() {
+    const [showModal, setShowModal] = useState(false)
 
-    const [showModal, setShowModal] = useState(false);
-
-    const handleShow = () => setShowModal(true);
-    const handleClose = () => setShowModal(false);
+    const handleShow = () => setShowModal(true)
+    const handleClose = () => setShowModal(false)
 
     return (
         <>
@@ -34,52 +33,42 @@ export default function PopupForm() {
                         style={{ display: 'block' }}
                         tabIndex={-1}
                         aria-labelledby="contactFormModalLabel"
-                        aria-hidden="false"
+                        aria-hidden="true"
                         role="dialog"
                     >
-                        <div className="modal-dialog modal-lg" role="document">
+                        <div className="modal-dialog modal-xl" role="document">
                             <div className="modal-content">
-                                <div className="row no-gutters">
+                                <div className="row g-0">
                                     {/* Left side: Image */}
-                                    <div className="col-md-5 d-none d-md-block">
-                                        <img
-                                            src="/img/women-meet.jpg"
+                                    <div className="col-md-6" style={{ height: '650px', position: 'relative' }}>
+                                        <Image
+                                            src="/img/photos/shutterstock_2350002237.jpg"
                                             alt="Dotacje dla firm"
-                                            className="img-fluid"
-                                            style={{ height: '100%', objectFit: 'cover' }}
+                                            layout="fill"
+                                            objectFit="cover"
+                                            quality={100}
+                                            priority={true}
                                         />
                                     </div>
 
                                     {/* Right side: Form */}
-                                    <div className="col-md-7">
-                                        <div className="modal-header ps-4">
-                                            <h3 className="modal-title ps-0" id="contactFormModalLabel">
-                                                Zapraszamy do bezpłatnego udziału w projekcie
-                                            </h3>
-                                            <button
-                                                type="button"
-                                                className="btn-close"
-                                                onClick={handleClose}
-                                                aria-label="Zamknij"
-                                            ></button>
-                                        </div>
-                                        <p className="ps-4">Zostaw kontakt, oddzwonimy!</p>
-                                        <div className="">
-                                            <ContactForm />
-
-
-                                        </div>
+                                    <div className="col-md-6 p-4 position-relative">
+                                        <button
+                                            type="button"
+                                            className="btn-close position-absolute top-0 end-0 m-3"
+                                            onClick={handleClose}
+                                            aria-label="Zamknij"
+                                        ></button>
+                                        <h3 className="mb-4">Zapraszamy do bezpłatnego udziału w projekcie</h3>
+                                        <p>Zostaw kontakt, oddzwonimy!</p>
+                                        <ContactForm />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </>
-            )}</>
-
-
+            )}
+        </>
     )
-
 }
-
-
