@@ -19,7 +19,7 @@ async function getStrapiData(id: string) {
         },
     }
     );
-
+    console.log(data)
     return data.json();
 }
 
@@ -37,6 +37,7 @@ export default async function BlogDetailsTemplate({ params }: { params: { slug: 
     const tekstPlikDoPobrania = data.attributes?.TekstPlikDoPobrania || '';
     const downloadURL = data.attributes.PlikDoPobrania?.data?.attributes?.url;
 
+    console.log(tekstPlikDoPobrania)
     return (
         <>
             <section className="wrapper bg-soft-primary">

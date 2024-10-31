@@ -25,7 +25,7 @@ export default function Hero4() {
             />
             <figure className="rounded">
               <Image
-                src="/img/photos/women_meet.jpg"
+                src="/img/photos/czaskobietglowne.jpg"
                 width="400"
                 height="300"
                 // priority={true} 
