@@ -4,11 +4,13 @@ import { format } from 'date-fns';
 import { pl } from 'date-fns/locale';
 import './style.css';
 import flagaUe from '@/icons/flaga-ue-tlo.png';
+
 const backendLink = process.env.STRAPI_PUBLIC_BACKEND_LINK;
 
 async function getStrapiData() {
     try {
-        const response = await fetch(`${backendLink}/api/aktualnoscis?sort=id:desc`,
+        // Dodajemy parametr pagination[pageSize]=100, żeby pobrać wszystkie wpisy
+        const response = await fetch(`${backendLink}/api/aktualnoscis?sort=id:desc&pagination[pageSize]=100`,
             {
                 cache: 'no-store',
                 method: 'GET',
@@ -24,7 +26,7 @@ async function getStrapiData() {
         return await response.json();
     } catch (error) {
         console.error('Failed to fetch data:', error);
-        return { data: [] }; // Return empty data if the backend fails
+        return { data: [] }; // Zwracamy pustą tablicę w przypadku błędu
     }
 }
 
@@ -41,13 +43,13 @@ function createSlug(text: string): string {
 
     return text
         .split('')
-        .map(char => polishChars[char] || char) // Zamień polskie znaki
+        .map(char => polishChars[char] || char) // Zamiana polskich znaków
         .join('')
-        .toLowerCase() // Zamień na małe litery
-        .replace(/[^a-z0-9\s-]/g, '') // Usuń wszystko oprócz liter, cyfr, spacji i myślników
-        .trim() // Usuń białe znaki z początku i końca
-        .replace(/\s+/g, '-') // Zamień spacje na myślniki
-        .replace(/-+/g, '-'); // Usuń powtarzające się myślniki
+        .toLowerCase() // Zamiana na małe litery
+        .replace(/[^a-z0-9\s-]/g, '') // Usunięcie niepotrzebnych znaków
+        .trim() // Usunięcie białych znaków z początku i końca
+        .replace(/\s+/g, '-') // Zamiana spacji na myślniki
+        .replace(/-+/g, '-'); // Usunięcie powtarzających się myślników
 }
 
 export default async function News() {
