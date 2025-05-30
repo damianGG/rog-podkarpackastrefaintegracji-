@@ -63,7 +63,7 @@ export default async function Process7() {
       <div className="container pt-15 pt-md-17 pb-13 pb-md-15">
         <div className="row mb-5">
           <div className="col-md-12 col-xl-12 col-xxl-12 mx-auto text-center">
-            <h2 className="display-4 mb-4 px-lg-10">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE? <br></br> Kobiety:</h2>
+            <h2 className="display-4 mb-4 px-lg-10">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE? <br></br></h2>
           </div>
         </div>
         <div className="col-lg-12 order-lg-2 d-flex">
@@ -74,15 +74,15 @@ export default async function Process7() {
 
 
         </div>
-        <div className="col-lg-12">
+        {/* <div className="col-lg-12">
           <p className="lead fs-lg pe-lg-5 mt-10"> Do wzięcia udziału w projekcie zapraszamy wszystkie chętne osoby spełniające
             wyżej wymienione kryteria, a w szczególności kobiety zamieszkujące
             obszary wiejskie na terenie województwa świętokrzyskiego oraz posiadające
             orzeczenie o stopniu niepełnosprawności.</p>
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
           <p className="lead fs-lg pe-lg-5 mt-10"> Rekrutacja realizowana będzie z uwzględnieniem zasady równych szans i płci oraz niedyskryminacji, w tym dostępności dla osób z niepełnosprawnościami. Przy rekrutacji stosowane będą także zasady zrównoważonego rozwoju.</p>
-        </div>
+        </div> */}
 
       </div>
       <div className="container pt-10 pt-md-10 pb-13 pb-md-15">
@@ -100,7 +100,9 @@ export default async function Process7() {
                       </span>
                     </div>
                     <div>
-                      <h4 className="mb-1 text-start">Wydrukuj dokumenty rekrutacyjne i wypełnij je</h4>
+                      <h4 className="mb-1 text-start">Wydrukuj dokumenty rekrutacyjne i wypełnij je
+                        (Formularz rekrutacyjny, zał. 1 Oświadczenie Uczestnika projektu, zał. 2 Informacja o
+                        przetwarzaniu danych osobowych)</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
@@ -120,8 +122,10 @@ export default async function Process7() {
                       </span>
                     </div>
                     <div>
-                      <h4 className="mb-1 text-start">Wybierz z Zakładu Ubezpieczeń Społecznych lub Powiatowego Urzędu Pracy
-                        wymagane zaświadczenie</h4>
+                      <h4 className="mb-1 text-start">
+                        Wybierz z Zakładu Ubezpieczeń Społecznych lub Powiatowego Urzędu Pracy
+                        wymagane zaświadczenie
+                      </h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>
@@ -141,7 +145,8 @@ export default async function Process7() {
                       </span>
                     </div>
                     <div>
-                      <h4 className="mb-1 text-start">Zgromadź pozostałe wymagane załączniki</h4>
+                      <h4 className="mb-1 text-start">Zgromadź dokumenty potwierdzające status osoby zagrożonej ubóstwem lub
+                        wykluczeniem społecznym oraz pozostałe wymagane załączniki</h4>
                       <p className="mb-0"></p>
                     </div>
                   </div>

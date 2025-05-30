@@ -14,34 +14,52 @@ export default function About6() {
 
         <div className="col-lg-12">
 
-          <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Czas Kobiet!”</h2>
+          <h2 className="display-4 mb-3 text-center mb-10">Zapraszamy do projektu <br></br> „Podkarpacka Strefa Integracji”</h2>
           <div className="col-lg-12">
             <p className="lead fs-lg">
               Kto może wziąć udział w projekcie?
             </p>
             <div className="row gy-3 ">
               <div className="col-xl-12">
-                <h4 className="lead fs-lg">Kobiety:</h4>
+                <h4 className="lead fs-lg">Osoby spełniające łącznie następujące warunki:</h4>
                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
-                  <li><i className="uil uil-check"></i>sprawujące opiekę nad dzieckiem do lat 7 oraz osobami potrzebującymi
-                    wsparcia w codziennym funkcjonowaniu, powracające na rynek po
-                    zakończonym okresie sprawowania opieki</li>
-                  <li className="mt-3"><i className="uil uil-check"></i>mieszkające na obszarze woj. świętokrzyskiego</li>
+                  <li><i className="uil uil-check"></i>wiek powyżej 18 roku życia
+                  </li>
+                  <li className="mt-3"><i className="uil uil-check"></i>zamieszkiwanie na obszarze woj. podkarpackiego</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>bez zatrudnienia (zarówno osoby bezrobotne jak i bierne zawodowo)</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>zagrożone ubóstwem lub wykluczeniem społecznym</li>
+                </ul>
+                <h4 className="lead fs-lg">W ramach projektu oferujemy:</h4>
+                <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
+                  <li><i className="uil uil-check"></i>wsparcie doradcy zawodowego w zaplanowaniu indywidualnej ścieżki reintegracji
+                  </li>
+                  <li className="mt-3"><i className="uil uil-check"></i>wsparcie psychologiczne</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>porady prawne</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>life-coaching</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>warsztaty rozwoju osobistego</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>pośrednictwo pracy</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>szkolenie zawodowe umożliwiające zdobycie nowych kompetencji lub kwalifikacji</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>stypendium szkoleniowe</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>obiad i przerwa kawowa w trakcie szkolenia</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>bezpłatne materiały szkoleniowe</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>staż zawodowy trwający 3 miesiące</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>stypendium stażowe</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>zwrot kosztów dojazdu na szkolenia oraz staż zawodowy</li>
                 </ul>
               </div>
 
             </div>
 
           </div>
-          <p className="lead fs-lg mt-10">
+          {/* <p className="lead fs-lg mt-10">
             W szczególności do udziału w projekcie zapraszamy kobiety zamieszkujące obszary
             wiejskie na terenie województwa świętokrzyskiego oraz posiadające orzeczenie o
             stopniu niepełnosprawności.
-          </p>
+          </p> */}
         </div>
       </div>
 
-      <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14  align-items-center ">
+      {/* <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14  align-items-center ">
         <div className="col-lg-6 position-relative order-lg-2">
         </div>
 
@@ -81,7 +99,7 @@ export default function About6() {
         </div>
 
 
-      </div>
+      </div> */}
 
     </div>
   );

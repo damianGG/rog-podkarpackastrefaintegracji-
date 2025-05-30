@@ -23,7 +23,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-map me-2 fs-25" ></i> Adres (Biuro projektu)</p>
                   <address>
-                    Plac Niepodległości 1 lok. 3.19,<br className="d-none d-md-block" />25-506 Kielce
+                    ul. Słowackiego 24 lok. 16A,<br className="d-none d-md-block" />Rzeszów
                   </address>
                 </div>
               </div>
@@ -32,7 +32,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-phone-alt me-2 fs-25"></i>Telefon</p>
                   <p>
-                    +48 887 788 062 <br />
+                    +48 789 156 957<br />
                   </p>
                 </div>
               </div>
@@ -41,8 +41,8 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold"><i className="uil uil-envelope fs-25 me-2 "></i> e-mail</p>
 
-                  <Link href="mailto:czaskobiet@crse.org.pl" className="link-primary">
-                    czaskobiet@crse.org.pl
+                  <Link href="mailto:integracja@rogszkolenia.pl" className="link-primary">
+                    integracja@rogszkolenia.pl
                   </Link>
                   <br className="d-none d-md-block" />
                 </div>
@@ -51,11 +51,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold">
                     <i className="uil uil-facebook-f fs-25" /> facebook</p>
-
-
-
-
-                  <Link href="https://www.facebook.com/profile.php?id=61566028093204" className="link-primary" target="_blank">Czas Kobiet </Link>
+                  <Link href="https://www.facebook.com/profile.php?id=61575229461329" className="link-primary" target="_blank">podkarpacka strefa integracji</Link>
 
                 </div>
               </div>
@@ -67,7 +63,7 @@ export default function Footer2() {
 
           </div>
         </div>
-        <p className="fs-15">Centrum Rozwoju Społeczno-Ekonomicznego rights reserved.</p>
+        {/* <p className="fs-15">Centrum Rozwoju Społeczno-Ekonomicznego rights reserved.</p> */}
       </div>
     </footer>
   );
