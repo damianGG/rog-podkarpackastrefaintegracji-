@@ -65,7 +65,7 @@ export default async function News() {
                 style={{
                     position: 'relative',
                     backgroundPosition: 'right',
-                    backgroundImage: `url(${flagaUe.src})`,
+                    backgroundImage: "url('/img/flaga-ue-tlo.png')",
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
                 }}

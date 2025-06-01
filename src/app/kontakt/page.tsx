@@ -2,10 +2,7 @@ import Link from "next/link";
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import ContactForm from "@/components/blocks/form/form";
-export const metadata: Metadata = {
-    title: 'Kontakt do projektu „Kobieta * Aktywność * Sukces',
-    description: 'Kontakt do projektu „Kobieta * Aktywność * Sukces” w Radomiu i gminie Wieniawa oraz do biura projektu J&P Moritz Consulting Group Sp. z o. o. w Wrocławiu',
-}
+
 export default function Kontakt() {
     return (
         <>
@@ -14,7 +11,7 @@ export default function Kontakt() {
                 style={{
                     position: 'relative',
                     backgroundPosition: 'right',
-                    backgroundImage: 'url(/_next/static/media/flaga-ue-tlo.a9057970.png)',
+                    backgroundImage: "url('/img/flaga-ue-tlo.png')",
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
                 }}
