@@ -64,15 +64,15 @@ export default async function Process7() {
         <div className="row mb-5">
           <div className="col-md-12 col-xl-12 col-xxl-12 mx-auto text-center">
             <h2 className="display-4 mb-4 px-lg-10">KTO MOŻE WZIĄĆ UDZIAŁ W PROJEKCIE? <br></br></h2>
+            <div className="col-lg-12 order-lg-2 flex flex-col items-center gap-4 mx-auto " >
+              {processList1.map((item) => (
+                <ProcessList1 {...item} key={item.no} />
+              ))}
+
+
+
+            </div>
           </div>
-        </div>
-        <div className="col-lg-12 order-lg-2 d-flex">
-          {processList1.map((item) => (
-            <ProcessList1 {...item} key={item.no} />
-          ))}
-
-
-
         </div>
         {/* <div className="col-lg-12">
           <p className="lead fs-lg pe-lg-5 mt-10"> Do wzięcia udziału w projekcie zapraszamy wszystkie chętne osoby spełniające
@@ -201,11 +201,12 @@ export default async function Process7() {
         </div>
         <p className="text-center mt-5">
           Jeśli potrzebujesz pomocy w wypełnieniu dokumentów rekrutacyjnych zapraszamy
-          do Biura projektu (patrz zakładka <a href="/kontakt">„Kontakt”</a> ). Ponadto zapewniamy możliwość
-          skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy asystenta do
-          wypełnienia dokumentacji rekrutacyjnej. Dla osób, które mają problem z dojazdem do
-          Biura projektu, po wcześniejszym umówwieniu się telefonicznie bądź meilowo, możliwy jest dojazd do Kandydatek do domu i pomoc kadry
-          projektu w wypełnieniu dokumentów rekrutacyjnych.
+          do Biura projektu (patrz zakładka <a href="/kontakt">„Kontakt”</a> ).Ponadto zapewniamy
+          możliwość skorzystania z tłumacza języka migowego, pętli indukcyjnej lub pomocy
+          asystenta osoby z niepełnosprawnością. Dla osób, które mają problem z dojazdem
+          do Biura projektu (np. osoby z niepełnosprawnościami) możliwy jest dojazd do
+          Kandydatów/ek do domu i pomoc kadry projektu w wypełnieniu dokumentów
+          rekrutacyjnych.
         </p>
 
       </div>
@@ -227,10 +228,11 @@ export default async function Process7() {
                 - pobrania pliku w wersji czarno-białej
               </p>
             </div>
-            <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze. Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
+            <p>Prosimy o drukowanie dokumentów rekrutacyjnych w kolorze.
+              Wersja czarno-biała dotyczy sytuacji braku możliwości wydruku w kolorze.</p>
             {/* Sprawdź, czy dane są puste */}
             {data.length === 0 ? (
-              <p className="text-danger">Nie udało się pobrać dokumentów. Prosimy spróbować później.</p>
+              <p className="text-danger">Strona w budowie</p>
             ) : (
               <div className="col-lg-12 order-lg-2">
                 {/* Iteruj po dokumentach */}
@@ -253,7 +255,8 @@ export default async function Process7() {
             )}
           </div>
         </div>
-        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z <Link href="/kontakt" className="link-primary">Biurem projektu.</Link> </p>
+        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z Biurem projektu dane w
+          zakładce <Link href="/kontakt" className="link-primary">„Kontakt”.</Link> </p>
       </div>
     </>
   );

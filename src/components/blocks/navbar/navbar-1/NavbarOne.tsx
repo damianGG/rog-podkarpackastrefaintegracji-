@@ -11,7 +11,7 @@ import Link from "next/link";
 // LOCAL CUSTOM COMPONENTS
 import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
-// import roglogo from "/img/logos/logorog_bg.png";
+import roglogo from "../../../../../public/img/rog-logo-removebg-preview.png";
 import Toplogo from "../top-logo/Toplogo";
 
 // ===================================================================
@@ -57,19 +57,19 @@ export default function NavbarOne({
   const headerContent = (
     <Fragment>
       <div className="navbar-brand w-100">
-        {/* <Link href="/" >
+        <Link href="/" >
           <Image
             src={roglogo}
 
-            alt="logo firmy JP"
+            alt="logo firmy rog"
 
             style={{
               width: '100%',
               height: 'auto',
-              maxWidth: '65px',
+              maxWidth: '150px',
             }}
           />
-        </Link> */}
+        </Link>
       </div>
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">

@@ -21,7 +21,7 @@ export default function About6() {
             </p>
             <div className="row gy-3 ">
               <div className="col-xl-12">
-                <h4 className="lead fs-lg">Osoby spełniające łącznie następujące warunki:</h4>
+                <h4 className="lead fs-lg mt-3">Osoby spełniające łącznie następujące warunki:</h4>
                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                   <li><i className="uil uil-check"></i>wiek powyżej 18 roku życia
                   </li>
@@ -29,7 +29,7 @@ export default function About6() {
                   <li className="mt-3"><i className="uil uil-check"></i>bez zatrudnienia (zarówno osoby bezrobotne jak i bierne zawodowo)</li>
                   <li className="mt-3"><i className="uil uil-check"></i>zagrożone ubóstwem lub wykluczeniem społecznym</li>
                 </ul>
-                <h4 className="lead fs-lg">W ramach projektu oferujemy:</h4>
+                <h4 className="lead fs-lg mt-5">W ramach projektu oferujemy:</h4>
                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                   <li><i className="uil uil-check"></i>wsparcie doradcy zawodowego w zaplanowaniu indywidualnej ścieżki reintegracji
                   </li>
@@ -45,6 +45,8 @@ export default function About6() {
                   <li className="mt-3"><i className="uil uil-check"></i>staż zawodowy trwający 3 miesiące</li>
                   <li className="mt-3"><i className="uil uil-check"></i>stypendium stażowe</li>
                   <li className="mt-3"><i className="uil uil-check"></i>zwrot kosztów dojazdu na szkolenia oraz staż zawodowy</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>wsparcie mentora i trenera pracy dla osób podejmujących zatrudnienie</li>
+                  <li className="mt-3"><i className="uil uil-check"></i>usługi zdrowotne</li>
                 </ul>
               </div>
 

@@ -66,10 +66,10 @@ export default function Kontakt() {
                 <div className="row mt-10">
                     <div className="col text-center">
                         <Image
-                            src="/img/logos/crselogo.png"
+                            src="/img/rog-logo-removebg-preview.png"
                             alt="Picture of the author"
-                            width={65}
-                            height={65}
+                            width={255}
+                            height={188}
                         />
                         <h2>Siedziba Róg Consulting &amp; Business Training Sp. z o. o.</h2>
                         <p><strong>Adres: </strong> ul. Kazimierza Pułaskiego 9A,35-011 Rzeszów</p>

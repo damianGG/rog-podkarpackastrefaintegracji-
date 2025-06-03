@@ -124,8 +124,8 @@ export default function News() {
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
                                         Indywidualna Ścieżka Reintegracji zostanie opracowana podczas
-                                        indywidualnych sesji z:
-                                        - doradcą zawodowym – śr. 3 godz. zegarowe,
+                                        indywidualnych sesji z:<br />
+                                        - doradcą zawodowym – śr. 3 godz. zegarowe,<br />
                                         - psychologiem – śr. 2 godz. zegarowe.
                                     </li>
                                     <li className="mt-3">
@@ -157,7 +157,6 @@ export default function News() {
 
                         </div>
                     </div>
-
                     <div className="col-lg-6">
 
 
@@ -177,16 +176,6 @@ export default function News() {
                                         Uczestników/czek;
                                         - indywidualne porady prawne – dla 12 Uczestników/czek;
                                         - indywidualny life-coaching – dla 16 Uczestników/czek;
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
-                                        Indywidualne poradnictwo psychologiczne i psychospołeczne będzie miało na
-                                        celu określenie potrzeb i deficytów oraz sytuacji życiowej Uczestnika/czki, a
-                                        następnie zindywidualizowaną pracę z Uczestnikiem/czką zgodnie ze
-                                        zdiagnozowanymi potrzebami. Wsparcie psychologa umożliwi
-                                        Uczestnikom/czkom rozwiązanie wielu problemów ich wykluczenia, czy
-                                        ubóstwa. Każdy/a Uczestnik/czka projektu otrzyma śr. 3 godz. zegarowe
-                                        indywidualnych sesji z psychologiem.
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
@@ -217,6 +206,60 @@ export default function News() {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
+                    <div className="col-lg-6">
+                        <h2 className="display-4 mb-3"></h2>
+                        <p className="lead fs-lg">
+                            Warsztaty rozwoju osobistego
+                        </p>
+                        <div className="row gy-3 gx-xl-8">
+                            <div className="col-xl-12">
+                                <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
+                                    <li>
+                                        <i className="uil uil-check" />
+                                        Celem warsztatów będzie pogłębienie i doskonalenie własnego rozwoju
+                                        zawodowego i osobistego. Spotkania wpłyną na lepszą samoocenę i
+                                        samoświadomość Uczestników/czek, które w rezultacie wpłyną na zwiększone
+                                        osiągnięcia w życiu zawodowym i prywatnym.
+                                    </li>
+                                    <li>
+                                        <i className="uil uil-check" />
+                                        Wsparcie będzie dotyczyło takich zagadnień, jak rozwijanie
+                                        samoświadomości, analiza własnych emocji i lepsze ich zrozumienie,
+                                        podnoszenie poczucia własnej wartości, zwiększenie zadowolenia z życia,
+                                        wyciąganie pozytywnych aspektów z danej sytuacji, poznanie swoich mocnych
+                                        stron oraz otwarcie na nowe doświadczenia.
+                                    </li>
+                                    <li>
+                                        <i className="uil uil-check" />
+                                        Wsparcie przewidziano dla 12 Uczestników/czek projektu i będzie obejmowało
+                                        2 spotkania z psychologiem po 3 godz. zegarowe.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 position-relative">
+
+                        <div className="overlap-grid overlap-grid-2">
+
+                            <div>
+                                <figure className="rounded shadow">
+                                    <Image
+                                        src="/img/photos/shutterstock_2429463807.jpg"
+                                        width={600}
+                                        height={1000}
+                                        alt="hero"
+                                    />
+                                </figure>
+                            </div>
+                            <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
+
+                        </div>
+                    </div>
+
+
                 </div>
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
                     <div className="col-lg-6 position-relative order-lg-1">
@@ -437,6 +480,84 @@ export default function News() {
                         </div>
                     </div>
                 </div>
+
+                <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
+                    <div className="col-lg-6 position-relative order-lg-1">
+
+                        <div className="overlap-grid overlap-grid-2">
+                            <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
+                            <div>
+                                <figure className="rounded shadow">
+                                    <Image
+                                        src="/img/photos/ludzie.jpg"
+                                        width={600}
+                                        height={1000}
+                                        alt="hero"
+                                    />
+                                </figure>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6">
+
+
+                        <h2 className="display-4 mb-3"></h2>
+
+                        <p className="lead fs-lg">
+                            Mentoring, zatrudnienie wspomagane
+                        </p>
+
+                        <div className="row gy-3 gx-xl-8">
+                            <div className="col-xl-12">
+                                <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
+
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Wsparcie będzie przeznaczone dla osób, które podejmą zatrudnienie, a z ich
+                                        IŚR będzie wynikała konieczność objęcia tego typu wsparciem.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Celem wsparcia będzie pomoc Uczestnikowi/czce w utrzymaniu zatrudnienia.
+
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Wsparcie świadczone będzie w miejscu pracy danego Uczestnika/czki
+                                        projektu.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Mentoring będzie polegał na wsparciu Uczestnika/czki projektu przez mentora
+                                        w radzeniu sobie ze zmianami i z nową sytuacją zawodową. Mentor będzie
+                                        pomagał Uczestnikowi/czce w wykorzystaniu jego/jej potencjału w nowym
+                                        miejscu pracy. Rolą mentora będzie motywowanie Uczestnika/czki do
+                                        działania, pomoc we wdrożeniu się w nowe miejsce pracy oraz
+                                        ukierunkowanie na działania na określony cel. Wsparciem zostanie objętych
+                                        14 Uczestników/czek w wymiarze śr. 8 godz. zegarowych na osobę.
+                                    </li>
+                                    <li className="mt-3">
+                                        <i className="uil uil-check" />
+                                        Zatrudnienie wspomagane będzie skierowane do osób z
+                                        niepełnosprawnością, które podejmą zatrudnienie. Zakłada ono indywidualną
+                                        pracę trenera pracy z osobą z niepełnosprawnością przy maksymalnym jej
+
+                                        włączeniu w całość procesu decyzyjnego dotyczącego zatrudnienia. Oznacza
+                                        to pomoc trenera począwszy od przygotowania do pracy, aż do wsparcia w
+                                        miejscu pracy (adaptacja na nowym stanowisku pracy), jak również dalszy
+                                        monitoring. Wsparciem zostanie objętych 12 Uczestników/czek z
+                                        niepełnosprawnością w wymiarze śr. 12 godz. zegarowych na osobę.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
                     <div className="col-lg-6 position-relative order-lg-1">
 

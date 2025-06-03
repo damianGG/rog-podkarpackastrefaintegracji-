@@ -25,7 +25,7 @@ export default function Hero4() {
             />
             <figure className="rounded">
               <Image
-                src="/img/photos/czaskobietglowne.jpg"
+                src="/img/photos/grafika.jpg"
                 width="400"
                 height="300"
                 // priority={true} 
@@ -47,13 +47,13 @@ export default function Hero4() {
 
             <div className="d-flex justify-content-center justify-content-lg-start">
 
-              <span style={slideInDownAnimate("1200ms")}>
+              {/* <span style={slideInDownAnimate("1200ms")}>
                 <PopupForm />
-              </span>
+              </span> */}
 
 
               <span style={slideInDownAnimate("1200ms")}>
-                <Link href="/aktualnosci" className="btn btn-lg btn-outline-primary rounded-pill" >Aktualności</Link>
+                <Link href="/rekrutacja" className="btn btn-lg btn-primary rounded-pill" >Zapisz się</Link>
               </span>
             </div>
           </div>

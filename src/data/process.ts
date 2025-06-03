@@ -16,7 +16,7 @@ import CloudComputing from "@/icons/lineal/CloudComputing";
 export const processList1 = [
   {
     no: "1",
-    className: "me-lg-6",
+    className: "card shadow-lg w-full max-w-[600px] mb-3 mx-auto",
     title: "osoby powyżej 18 roku życia,",
     subtitle: "",
     shadow: true
@@ -24,21 +24,21 @@ export const processList1 = [
   {
     no: "2",
     title: "pozostające bez pracy – bezrobotne lub bierne zawodowo,",
-    className: "me-lg-6 mt-6",
+    className: "card shadow-lg w-full max-w-[600px] mb-3 mx-auto",
     shadow: true,
     subtitle: ""
   },
   {
     no: "3",
     title: "zagrożone ubóstwem lub wykluczeniem społecznym,",
-    className: "me-lg-6 mt-6",
+    className: "card shadow-lg w-full max-w-[600px] mb-3 mx-auto",
     shadow: true,
     subtitle: ""
   },
   {
     no: "4",
     title: "zamieszkujące na obszarze woj. podkarpackiego.",
-    className: "me-lg-6 mt-6",
+    className: "card shadow-lg w-full max-w-[600px] mb-3 mx-auto",
     shadow: true,
     subtitle: ""
   }

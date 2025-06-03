@@ -22,7 +22,7 @@ export default function ProcessList1({ no, title, subtitle, className, shadow }:
       <div className="card-body p-6">
         <div className="d-flex flex-row">
           <div>
-            <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4">
+            <span className="icon btn btn-circle btn-lg btn-soft-primary pe-none me-4 ">
               <span className="number">{no}</span>
             </span>
           </div>
