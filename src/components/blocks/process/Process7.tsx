@@ -100,7 +100,7 @@ export default async function Process7() {
                       </span>
                     </div>
                     <div>
-                      <h4 className="mb-1 text-start">Wydrukuj dokumenty rekrutacyjne i wypełnij je
+                      <h4 className="mb-1 text-start">Wydrukuj dokumenty rekrutacyjne i wypełnij je <br />
                         (Formularz rekrutacyjny, zał. 1 Oświadczenie Uczestnika projektu, zał. 2 Informacja o
                         przetwarzaniu danych osobowych)</h4>
                       <p className="mb-0"></p>
@@ -145,7 +145,7 @@ export default async function Process7() {
                       </span>
                     </div>
                     <div>
-                      <h4 className="mb-1 text-start">Zgromadź dokumenty potwierdzające status osoby zagrożonej ubóstwem lub
+                      <h4 className="mb-1 text-start ">Zgromadź dokumenty potwierdzające status osoby zagrożonej ubóstwem lub
                         wykluczeniem społecznym oraz pozostałe wymagane załączniki</h4>
                       <p className="mb-0"></p>
                     </div>
@@ -255,8 +255,7 @@ export default async function Process7() {
             )}
           </div>
         </div>
-        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z Biurem projektu dane w
-          zakładce <Link href="/kontakt" className="link-primary">„Kontakt”.</Link> </p>
+        <p className="text-center mt-5">Aby uzyskać więcej informacji prosimy o kontakt z Biurem projektu - dane w zakładce <Link href="/kontakt" className="link-primary">„Kontakt”.</Link> </p>
       </div>
     </>
   );

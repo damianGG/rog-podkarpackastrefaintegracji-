@@ -53,15 +53,15 @@ export default function Kontakt() {
                         <p><strong>Tel:</strong> +48 789 156 957</p>
                         <p><strong>E-mail:</strong> <a href="mailto:integracja@rogszkolenia.pl" className="link-primary" target="_blank">integracja@rogszkolenia.pl</a> </p>
                     </div>
-                    {/* <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8468.299281562113!2d20.609483733014006!3d50.87485599236021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471827ef3ba09413%3A0x173b479902984349!2splac%20Niepodleg%C5%82o%C5%9Bci%201%2C%2025-001%20Kielce!5e0!3m2!1spl!2spl!4v1728038530209!5m2!1spl!2spl"
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1044.186354029244!2d22.00246526490173!3d50.03450141903533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfb01d3f6086b%3A0x24949f781a7a09b6!2sJuliusza%20S%C5%82owackiego%2024%2F16a%2C%2035-060%20Rzesz%C3%B3w!5e1!3m2!1spl!2spl!4v1749507031019!5m2!1spl!2spl"
 
                         width={600}
                         height={450}
                         style={{ border: 0 }}
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
-                    /> */}
+                    />
                 </div>
                 <div className="row mt-10">
                     <div className="col text-center">

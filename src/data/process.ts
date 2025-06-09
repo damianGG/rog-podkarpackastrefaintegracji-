@@ -24,7 +24,7 @@ export const processList1 = [
   {
     no: "2",
     title: "pozostające bez pracy – bezrobotne lub bierne zawodowo,",
-    className: "card shadow-lg w-full max-w-[600px] mb-3 mx-auto",
+    className: "card shadow-lg w-full max-w-[600px] mb-3 mx-auto text-start",
     shadow: true,
     subtitle: ""
   },

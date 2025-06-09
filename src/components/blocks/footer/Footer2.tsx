@@ -51,7 +51,7 @@ export default function Footer2() {
                 <div className="widget">
                   <p className="widget-title fs-15 fw-bold">
                     <i className="uil uil-facebook-f fs-25" /> facebook</p>
-                  <Link href="https://www.facebook.com/profile.php?id=61575229461329" className="link-primary" target="_blank">podkarpacka strefa integracji</Link>
+                  <Link href="https://www.facebook.com/profile.php?id=61575229461329" className="link-primary" target="_blank">Róg Consulting & Training Business Sp. z o. o.</Link>
 
                 </div>
               </div>

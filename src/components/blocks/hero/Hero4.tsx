@@ -52,8 +52,11 @@ export default function Hero4() {
               </span> */}
 
 
+              <span >
+                <Link href="/aktualnosci" className="btn btn-lg btn-primary rounded-pill me-2" >Aktualności</Link>
+              </span>
               <span style={slideInDownAnimate("1200ms")}>
-                <Link href="/rekrutacja" className="btn btn-lg btn-primary rounded-pill" >Zapisz się</Link>
+                <Link href="/rekrutacja" className="btn btn-lg btn-ghost rounded-pill bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white  px-4 border border-blue-500 hover:border-transparent rounded  " >Zapisz się</Link>
               </span>
             </div>
           </div>

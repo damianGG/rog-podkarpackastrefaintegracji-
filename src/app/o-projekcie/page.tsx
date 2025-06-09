@@ -77,7 +77,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/photo-1.jpg"
+                                        src="/img/photos/1 IŚR.webp"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -146,7 +146,8 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/shutterstock_2429463807.jpg"
+
+                                        src="/img/photos/2 Instrumenty aktywizacji społecznej.webp"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -171,10 +172,10 @@ export default function News() {
                                 <ul className="icon-list bullet-bg bullet-soft-primary mb-0">
                                     <li>
                                         <i className="uil uil-check" />
-                                        W ramach instrumentów aktywizacji społecznej przewidziano:
+                                        W ramach instrumentów aktywizacji społecznej przewidziano:<br />
                                         - indywidualne poradnictwo psychologiczne i psychospołeczne – dla 60
-                                        Uczestników/czek;
-                                        - indywidualne porady prawne – dla 12 Uczestników/czek;
+                                        Uczestników/czek;<br />
+                                        - indywidualne porady prawne – dla 12 Uczestników/czek;<br />
                                         - indywidualny life-coaching – dla 16 Uczestników/czek;
                                     </li>
                                     <li className="mt-3">
@@ -247,7 +248,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/shutterstock_2429463807.jpg"
+                                        src="/img/photos/3 Warsztaty rozwoju osobistego.webp"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -262,14 +263,15 @@ export default function News() {
 
                 </div>
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
-                    <div className="col-lg-6 position-relative order-lg-1">
+                    <div className="col-lg-6 position-relative ">
 
                         <div className="overlap-grid overlap-grid-2">
                             <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/shutterstock_2489860569.jpg"
+
+                                        src="/img/photos/4 Instrumenty aktywizacji zawodowej.webp"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -302,14 +304,6 @@ export default function News() {
                                     </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
-                                        Uczestniczka projektu wraz z psychologiem skupią się na indywidualnej
-                                        sytuacji społecznej i zawodowej. Poradnictwo psychologiczne przyczyni się do
-                                        rozwiązania ich bieżących problemów i specyficznych trudności związanych z
-                                        sytuacją życiową i podejmowaniem próby zmiany.
-
-                                    </li>
-                                    <li className="mt-3">
-                                        <i className="uil uil-check" />
                                         W ramach pośrednictwa pracy Uczestnik/czka projektu zostanie
                                         wyposażony/a w umiejętność poruszania się po rynku pracy i samodzielnego
                                         poszukiwania zatrudnienia.
@@ -329,14 +323,14 @@ export default function News() {
                     </div>
                 </div>
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
-                    <div className="col-lg-6 position-relative ">
+                    <div className="col-lg-6 position-relative order-lg-1">
 
                         <div className="overlap-grid overlap-grid-2">
 
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/intreview.jpg"
+                                        src="/img/photos/5 Kursy i szkolenia zawodowe.webp"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -400,14 +394,14 @@ export default function News() {
                     </div>
                 </div>
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
-                    <div className="col-lg-6 position-relative order-lg-1">
+                    <div className="col-lg-6 position-relative ">
 
                         <div className="overlap-grid overlap-grid-2">
                             <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/ludzie.jpg"
+                                        src="/img/photos/6 Staże zawodowe.webp"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -489,7 +483,7 @@ export default function News() {
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/ludzie.jpg"
+                                        src="/img/photos/7 Mentoring i zatrudnienie wspomagane.webp"
                                         width={600}
                                         height={1000}
                                         alt="hero"
@@ -559,14 +553,14 @@ export default function News() {
 
 
                 <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-17 align-items-center">
-                    <div className="col-lg-6 position-relative order-lg-1">
+                    <div className="col-lg-6 position-relative ">
 
                         <div className="overlap-grid overlap-grid-2">
                             <div className="shape bg-dot primary rellax w-16 h-20" style={{ top: "14rem", left: "-2.5rem", zIndex: "-1" }} />
                             <div>
                                 <figure className="rounded shadow">
                                     <Image
-                                        src="/img/photos/ludzie.jpg"
+                                        src="/img/photos/uslugi-zdrowotne.jpg"
                                         width={600}
                                         height={1000}
                                         alt="hero"

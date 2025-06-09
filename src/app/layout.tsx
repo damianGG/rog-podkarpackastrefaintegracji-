@@ -38,7 +38,9 @@ export default function RootLayout({
       </head>
       <body className={manrope.className}>
 
-        <NavbarOne button={<PopupForm />} />
+        <NavbarOne
+        // button={<PopupForm />}
+        />
         <AccessibilityButton />
         <div>{children}</div>
         <Footer2 />
