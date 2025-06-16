@@ -178,6 +178,16 @@ export default function News() {
                                         - indywidualne porady prawne – dla 12 Uczestników/czek;<br />
                                         - indywidualny life-coaching – dla 16 Uczestników/czek;
                                     </li>
+                                    <li>
+                                        <i className="uil uil-check" />
+                                        Indywidualne poradnictwo psychologiczne i psychospołeczne będzie miało na
+                                        celu określenie potrzeb i deficytów oraz sytuacji życiowej Uczestnika/czki, a
+                                        następnie zindywidualizowaną pracę z Uczestnikiem/czką zgodnie ze
+                                        zdiagnozowanymi potrzebami. Wsparcie psychologa umożliwi
+                                        Uczestnikom/czkom rozwiązanie wielu problemów ich wykluczenia, czy
+                                        ubóstwa. Każdy/a Uczestnik/czka projektu otrzyma śr. 3 godz. zegarowe
+                                        indywidualnych sesji z psychologiem.
+                                    </li>
                                     <li className="mt-3">
                                         <i className="uil uil-check" />
                                         Indywidualne porady prawne będą miały na celu wsparcie Uczestników/czek
